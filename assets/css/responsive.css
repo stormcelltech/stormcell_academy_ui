@@ -1,0 +1,145 @@
+/* THIS CONTAIN ALL STORMCELL TEMPLATE RESPONSIVE 
+*/
+
+@media(max-width:767px){
+    .stormcell-nav{
+        background: #fff!important;
+        box-shadow: 
+        0px 1px 9px rgba(0, 97, 135, 0.755),12px 12px 16px 0 rgba(255, 255, 255, 0.104) inset,
+        -8px -8px 12px 0 rgba(21, 156, 197, 0.25) inset;
+    }
+    .toggler{
+        color: #000!important;
+    }
+
+    .stormcell-link.nav-link{
+        color: #000!important;
+    }
+    .heading{
+        font-size:1.9rem!important;
+    }
+    .team,.team-2,.team-3{
+        font-size:1.9rem;
+    }
+    .stormcell-product-heading{
+        font-size:1.9rem;
+    }
+    .stay{
+        font-size:1.5rem;
+    }
+    .stay-2{
+        font-size:1.9rem;
+    }
+    .stay-3{
+        font-size: 1.1rem;
+    }
+    
+    
+    .stormcell-image img{
+        width:350px;
+        display: flex;
+        margin: auto!important;
+       
+    }
+    .stormcell-heading{
+        font-size: 45px;
+        display: flex;
+        justify-content: center!important;
+        margin-top: 70px;
+        text-align: center!important;
+    }
+
+    .stormcell-text{
+        font-size: 21px!important;
+        display: flex;
+        justify-content: center!important;
+        margin-top: 5px;
+        text-align: center!important;
+    }
+    .Os-btn{
+        text-align:center;       
+    }
+    .rotate-wrapper{
+        display: none!important;
+    }
+    
+    .stormcell-bounce-container{
+        display: none!important;
+    }
+    .custom-animate:hover{
+        animation: none!important;
+    }
+    #logo-1{
+        display: none;
+    }
+    #logo-2{
+        display: block!important;
+    }
+    .meet-team{
+        margin-bottom: -30px;
+        font-size: 20px;
+    }
+    .who{
+        font-size: 17px!important;
+    }
+    .heading-about{
+        font-size: 25px!important;
+    }
+    
+    .contact-stormcell{
+        font-size: 20px;
+    }
+    .about-paragraph-2{
+        font-size: 15px!important;
+        line-height: none!important;
+    }
+    .what-text-title{
+        font-size: 25px;
+    }
+    .stormcell-shield {
+        width: 170px!important;
+        padding-top:25px;
+    }
+    .balance img{
+        width:300px!important;
+        margin:0 auto;
+    }
+    .portfolio img{
+        width:250px!important;
+        margin:0 auto;
+    }
+    .what-p{
+        font-size: 17px!important;
+    }
+    .stormcell-details{
+        font-size:15px!important;
+    }
+    .choose-text{
+        font-size:25px!important;
+    }
+    .choose-details span, .promise-col span{
+        font-size:20px!important;
+    }
+    .choose-details p, .promise-col p{
+        font-size:15px!important;
+    }
+    .contact-img img{
+        width:200px;
+        margin:0 auto;
+    }
+    .contact-text p{
+        font-size:13px!important;
+    }
+    .contact-text strong{
+        font-size:13px!important;
+        
+    }
+}
+
+@media(min-width:990px){
+    .custom__img{
+        border-radius: 10px;
+        border:solid 5px #cccccc48;
+        width: 200px;
+    }
+}

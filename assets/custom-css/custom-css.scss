@@ -1,0 +1,85 @@
+.custom-nav-link{
+    .nav-link{
+        color:#000!important;
+    }
+}
+
+.custom-padding{
+padding: 100px 0!important;
+}
+
+.custom__img{
+    border-radius: 10px;
+    border:solid 5px #cccccc48;
+    width: 250px;
+}
+.custom__card{
+    border-radius: 15px;
+    background-image: linear-gradient(to right top, #f5c417, #ff8f27, #f55944, #d7265d, #a70070, #a10071, #9b0073, #950074, #bf266a, #dd4f60, #f1795b, #fba35f);
+    border:0!important;
+}
+.custom__card-header{
+    background: #0f0044!important;
+    font-size: 26px;
+    color:#fff!important;
+    border-top-left-radius: 10px!important;
+    border-top-right-radius: 10px!important;
+}
+
+.social-links a {
+   color:#000!important; 
+   text-decoration: none!important;
+   padding:0 5px;
+   font-size: 20px;
+   
+}
+
+.custom-fb{
+    color:#1877f2;
+}
+.custom-tw{
+    color: #1da1f2;
+}
+.custom-lk{
+    color: #0077b5;
+}
+.Author-name{
+    // background: #03104d;
+    background-image: linear-gradient(to right, #051937, #02214b, #00295f, #003074, #033889);
+    color:#fff!important;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.dev-name{
+    // background: #f1795b;
+    background-image: linear-gradient(to right, #ac6612, #be7013, #d07b15, #e28516, #f59017);
+    margin-top: 0!important;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.custom__card-text{
+    line-height: 28px;
+}
+
+// new css
+
+
+
+.profile-head {
+    transform: translateY(5rem)
+}
+
+.cover {
+    background-image: url(../images/background/team-cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+body {
+    // background: #654ea3;
+    // background: linear-gradient(to right, #e96443, #904e95);
+    background: #f4f4f4;
+    min-height: 100vh;
+    overflow-x: hidden
+}
