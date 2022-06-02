@@ -1,125 +1,124 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap'); */
+
 @font-face {
-  src: url(../../assets/font/product-sans/product-sans-regular.ttf);
-  font-family: "Productsans Regular";
+    src: url(../../assets/font/product-sans/product-sans-regular.ttf);
+    font-family: "Productsans Regular";
 }
 
 @font-face {
-  src: url(../../assets/font/product-sans/product-sans-bold.ttf);
-  font-family: "Productsans Bold";
+    src: url(../../assets/font/product-sans/product-sans-bold.ttf);
+    font-family: "Productsans Bold";
 }
 
 @font-face {
-  src: url(../../assets/font/italianno/italianno-regular.ttf);
-  font-family: "Italianno Regular";
+    src: url(../../assets/font/italianno/italianno-regular.ttf);
+    font-family: "Italianno Regular";
 }
 
 @font-face {
-  src: url(../../assets/font/Roboto/Roboto-Bold.ttf);
-  font-family: "Roboto Bold";
+    src: url(../../assets/font/Roboto/Roboto-Bold.ttf);
+    font-family: "Roboto Bold";
 }
 
 @font-face {
-  src: url(../../assets/font/Roboto/Roboto-Regular.ttf);
-  font-family: "Roboto Regular";
+    src: url(../../assets/font/Roboto/Roboto-Regular.ttf);
+    font-family: "Roboto Regular";
 }
 
 @font-face {
-  src: url(../../assets/font/Viaoda_Libre/ViaodaLibre-Regular.ttf);
-  font-family: "ViaodaLibre Font";
+    src: url(../../assets/font/Viaoda_Libre/ViaodaLibre-Regular.ttf);
+    font-family: "ViaodaLibre Font";
 }
 
 @font-face {
-  src: url(../../assets/font/Roboto/Roboto-Medium.ttf);
-  font-family: "Roboto Regular";
+    src: url(../../assets/font/Roboto/Roboto-Medium.ttf);
+    font-family: "Roboto Regular";
 }
+
 
 /* MATERIAL GOOGLE ICONS */
+
 @font-face {
-  font-family: "Material Icons";
-  font-style: normal;
-  font-weight: 400;
-  src: url(../iconfont/MaterialIcons-Regular.eot);
-  /* For IE6-8 */
-  src: local("Material Icons"), local("MaterialIcons-Regular"),
-    url(https://fonts.gstatic.com/s/materialicons/v21/2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2) format("woff2"),
-    url(../iconfont/MaterialIcons-Regular.woff2) format("woff2"),
-    url(../iconfont/MaterialIcons-Regular.woff) format("woff"),
-    url(../iconfont/MaterialIcons-Regular.ttf) format("truetype");
+    font-family: "Material Icons";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../iconfont/MaterialIcons-Regular.eot);
+    /* For IE6-8 */
+    src: local("Material Icons"), local("MaterialIcons-Regular"), url(https://fonts.gstatic.com/s/materialicons/v21/2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2) format("woff2"), url(../iconfont/MaterialIcons-Regular.woff2) format("woff2"), url(../iconfont/MaterialIcons-Regular.woff) format("woff"), url(../iconfont/MaterialIcons-Regular.ttf) format("truetype");
 }
 
 .stormcell-icons {
-  /* font-family: 'Material Icons'; */
-  font-family: "Material Icons";
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;
-  /* Preferred icon size */
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-  vertical-align: middle !important;
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
-  /* Support for IE. */
-  font-feature-settings: "liga";
+    /* font-family: 'Material Icons'; */
+    font-family: "Material Icons";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    vertical-align: middle !important;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: "liga";
 }
-
 
 :root {
-  --primary-color: #041066;
-  --secondary-color: #ff6f0f;
-  --gray-color: #e0e0e0;
-  --Roboto-Regular: "Roboto Regular";
-  --productsan-bold: "Productsans Bold";
-  --productsan-regular: "Productsans Regular";
-
+    --primary-color: #041066;
+    --secondary-color: #ff6f0f;
+    --gray-color: #e0e0e0;
+    --Roboto-Regular: "Roboto Regular";
+    --productsan-bold: "Productsans Bold";
+    --productsan-regular: "Productsans Regular";
 }
-
 
 .stormcell-logo {
-  width: 120px;
+    width: 120px;
 }
+
 
 /* Navbar search settings */
 
 .btn-default {
-  background: transparent !important;
-  border: solid 1px var(--primary-color);
-  border-right: transparent !important;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+    background: transparent !important;
+    border: solid 1px var(--primary-color);
+    border-right: transparent !important;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .stormcell-search {
-  border: solid 1px var(--primary-color);
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-left: 0 !important;
-  width: 500px;
-  max-width: 500px;
+    border: solid 1px var(--primary-color);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: 0 !important;
+    width: 500px;
+    max-width: 500px;
 }
 
 .stormcell .stormcel-search:focus {
-  box-shadow: none !important;
-  outline: none !important;
-  border-color: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    border-color: none !important;
 }
+
 
 /* Navbar search settings  end */
 
 
 /* Stormcell Button */
+
 
 /* .storm-btn {
     background: #ff6f0f;
@@ -136,55 +135,50 @@
       -8px -8px 12px 0 rgba(175, 106, 3, 0.35) inset;
   } */
 
-
 .stormcell-secondary-btn {
-  background: var(--secondary-color);
-  color: #fff;
-  padding: 5px 10px;
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.505),
-    12px 12px 16px 0 rgba(255, 255, 255, 0.104) inset,
-    -8px -8px 12px 0 rgba(175, 106, 3, 0.35) inset;
+    background: var(--secondary-color);
+    color: #fff;
+    padding: 5px 10px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.505), 12px 12px 16px 0 rgba(255, 255, 255, 0.104) inset, -8px -8px 12px 0 rgba(175, 106, 3, 0.35) inset;
 }
 
 .stormcell-secondary-btn:hover {
-  background: var(--primary-color);
-  color: #fff !important;
-  box-shadow: none !important;
+    background: var(--primary-color);
+    color: #fff !important;
+    box-shadow: none !important;
 }
 
 .stormcell-primary-btn {
-  border: solid 3px var(--primary-color);
-  color: var(--primary-color);
-  border-radius: 5px;
-  padding: 5px 10px;
+    border: solid 3px var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 5px;
+    padding: 5px 10px;
 }
 
 .stormcell-primary-btn:hover {
-  /* font-weight: bold; */
-  border: solid 3px var(--secondary-color);
-  color: var(--secondary-color);
-  /* font-weight: 300; */
+    /* font-weight: bold; */
+    border: solid 3px var(--secondary-color);
+    color: var(--secondary-color);
+    /* font-weight: 300; */
 }
 
 .storm-btn-margin {
-  margin: 20px;
+    margin: 20px;
 }
 
 .storm-btn:hover {
-  color: #fff !important;
-  background: #0070d6;
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.505),
-    12px 12px 16px 0 rgba(255, 255, 255, 0.104) inset,
-    -8px -8px 12px 0 rgba(28, 28, 28, 0.35) inset;
+    color: #fff !important;
+    background: #0070d6;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.505), 12px 12px 16px 0 rgba(255, 255, 255, 0.104) inset, -8px -8px 12px 0 rgba(28, 28, 28, 0.35) inset;
 }
 
 .btn-default {
-  background: #fff !important;
+    background: #fff !important;
 }
 
 .btn-default:focus {
-  border-color: none !important;
-  box-shadow: none !important;
+    border-color: none !important;
+    box-shadow: none !important;
 }
 
 
@@ -194,142 +188,351 @@
 /* stormcell link */
 
 .nav-link.stormcell-link {
-  padding: 0 10px;
-  color: var(--primary-color) !important;
-  font-weight: 600;
-  transition: all .5s ease-in-out;
+    padding: 0 10px;
+    color: var(--primary-color) !important;
+    font-weight: 600;
+    transition: all .5s ease-in-out;
 }
 
 .stormcell-link:hover {
-  color: var(--secondary-color) !important;
-
+    color: var(--secondary-color) !important;
 }
 
 .hero-section {
-  padding-top: 5rem;
-  padding-bottom: 0rem;
-  /* background-color: #006fd642; */
-  /* background: #98c2e75f; */
-  background: url(../images/background/v960-ning-28.jpg);
-  background-size: cover;
-  background-position: center center;
-  border-bottom: 3px solid var(--secondary-color);
+    padding-top: 5rem;
+    padding-bottom: 0rem;
+    /* background-color: #006fd642; */
+    /* background: #98c2e75f; */
+    background: url(../images/background/v960-ning-28.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-bottom: 3px solid var(--secondary-color);
 }
 
 .stormcell-hero-img {
-  width: 350px !important;
+    width: 350px !important;
 }
 
 .stormcell-container {
-  /* background: #ffffff; */
+    /* background: #ffffff; */
 }
 
 .stormcell-course-title-container {
-  /* background: #ffffff72; */
+    /* background: #ffffff72; */
 }
 
 .stormcell-btn {
-  background: var(--primary-color);
-  color: var(--gray-color);
-  padding: 10px 30px;
-  border-radius: 5px;
-  transition: all .5s ease-in-out;
+    background: var(--primary-color);
+    color: var(--gray-color);
+    padding: 10px 30px;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
 }
 
 .stormcell-btn:hover {
-  background: #030a44;
-  color: #fff;
+    background: #030a44;
+    color: #fff;
 }
 
 .btn-padding {
-  padding-top: 30px;
+    padding-top: 30px;
 }
 
 .stormcell-course-title {
-  font-family: var(--productsan-regular);
-  line-height: 55px;
-  color: var(--primary-color);
-  font-size: 30px;
+    font-family: var(--productsan-regular);
+    line-height: 55px;
+    color: var(--primary-color);
+    font-size: 30px;
 }
 
 .stormcell-course-img img {
-  width: 300px;
+    width: 400px;
 }
 
 .stormcell-course-heading {
-  font-family: var(--productsan-bold);
-  /* text-shadow: 0px 1px 4px rgb(0 0 0 / 51%); */
-  color: var(--primary-color);
+    font-family: var(--productsan-bold);
+    /* text-shadow: 0px 1px 4px rgb(0 0 0 / 51%); */
+    color: var(--primary-color);
 }
 
+
 /* stormcell link end */
+
 .form-control:focus {
-  border-color: var(--primary-color) !important;
-  /* border-color: var(--secondary-color); */
-  /* box-shadow: 0 0 0 0.2rem rgba(167, 116, 40, 0.25); */
-  box-shadow: none !important;
+    border-color: var(--primary-color) !important;
+    /* border-color: var(--secondary-color); */
+    /* box-shadow: 0 0 0 0.2rem rgba(167, 116, 40, 0.25); */
+    box-shadow: none !important;
 }
+
 
 /* Categorie section start */
 
 .categories-section {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background: #dcf4fb97 !important;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: #dcf4fb97 !important;
 }
 
 .card-stormcell-title {
-  color: var(--primary-color);
-  font-weight: 600 !important;
-  text-transform: uppercase;
+    color: var(--primary-color);
+    font-weight: 600 !important;
+    text-transform: uppercase;
 }
 
 .stormcell-course-descrip {
-  padding-top: 10px;
-  padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .stormcell-custom-card {
-  border-radius: 20px;
+    border-radius: 20px;
 }
+
 
 /* Categorie section end */
 
 
+/* stormcell custom card */
+
+.custom-img {
+    display: inline-block;
+    background: #0090de6b;
+    padding: 7px;
+    border-radius: 20px;
+    border: solid 5px rgb(253, 249, 249);
+    box-shadow: 0px 1px 4px rgba(4, 144, 168, 0.419);
+    transform: rotate(-45deg);
+}
+
+.custom-wrapper {
+    display: block;
+    margin: 0 auto !important;
+    padding: 0 0 20px 0 !important;
+}
+
+.custom-img img {
+    width: 60px;
+    transform: rotate(45deg);
+    margin: 0 auto !important;
+}
+
+.custom-animate:hover {
+    animation: borderClass 1s linear;
+}
+
+@keyframes borderClass {
+    from {
+        transform: translateX(20px);
+    }
+    to {
+        transform: translateX(-20px);
+    }
+}
+
+.custom-title {
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.border-radius {
+    border-radius: 15px;
+}
+
+.stormcell-shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15), 12px 12px 16px 0 rgba(255, 255, 255, 0.104) inset, -8px -8px 12px 0 rgba(211, 212, 213, 0.25) inset !important;
+}
 
 
+/* stormcell product end */
+
+
+/* Stormcell background animation start */
+
+.wrapper {
+    position: relative;
+    /* vertical-align: middle; */
+    width: 100%;
+    top: -50%;
+    /* overflow: hidden; */
+    /* background: #ccc; */
+}
+
+.box div {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: 3px solid rgba(162, 160, 160, 0.8);
+    /* border-radius: 50%; */
+}
+
+.box div:nth-child(1) {
+    top: 12%;
+    left: 42%;
+    animation: animate 10s linear infinite;
+    border-radius: 50%;
+    border: 3px solid #0086dd;
+}
+
+.box div:nth-child(2) {
+    top: 70%;
+    left: 50%;
+    animation: animate 7s linear infinite;
+    border: 3px solid #ddc700;
+}
+
+.box div:nth-child(3) {
+    top: 17%;
+    left: 6%;
+    animation: animate 9s linear infinite;
+    border: 3px solid #15e649;
+}
+
+.box div:nth-child(4) {
+    top: 20%;
+    left: 60%;
+    animation: animate 10s linear infinite;
+    border: 3px solid #dd00dd;
+}
+
+.box div:nth-child(5) {
+    border-radius: 50%;
+    top: 67%;
+    left: 10%;
+    animation: animate 12s linear infinite;
+    border: 3px solid #c91c6d;
+}
+
+.box div:nth-child(6) {
+    top: 80%;
+    left: 70%;
+    animation: animate 6s linear infinite;
+    border: 3px solid #0ea4b8;
+}
+
+.box div:nth-child(7) {
+    top: 60%;
+    left: 80%;
+    animation: animate 15s linear infinite;
+}
+
+.box div:nth-child(8) {
+    top: 32%;
+    left: 25%;
+    animation: animate 16s linear infinite;
+    border: 3px solid #e99b0c;
+}
+
+.box div:nth-child(9) {
+    top: 90%;
+    left: 25%;
+    animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(10) {
+    top: 20%;
+    left: 80%;
+    animation: animate 5s linear infinite;
+    border: 3px solid #ddbc00;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.3) translateY(-90px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+.custom-title {
+    font-family: var(--productsan-bold);
+    font-size: 20px;
+}
+
+
+/* stormcell custom card end */
+
+
+/* TRUSTED START */
+
+.t1 img {
+    width: 150px;
+    display: inline-block;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.t2 img {
+    width: 150px;
+    display: inline-block;
+    padding: 20px;
+}
+
+.t3 img {
+    width: 150px;
+    display: inline-block;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.t4 img {
+    width: 150px;
+    display: inline-block;
+    padding: 20px;
+}
+
+.t5 img {
+    width: 120px;
+    display: inline-block;
+    padding: 20px;
+}
+
+.trusted-heading {
+    font-size: 25px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    font-family: "Roboto Regular" !important;
+    font-style: italic;
+}
+
+.trusted-padding {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+
+/* TRUSTED END */
 
 
 /* Media queries */
 
 @media screen and (max-width:992px) {
-  .hero-section {
-    /* padding-bottom: 4rem; */
-    border-bottom: 3px solid var(--secondary-color);
-  }
-
-
-  .stormcell-course-title {
-    font-family: var(--productsan-regular);
-    line-height: 40px;
-    color: var(--primary-color);
-    font-size: 20px;
-  }
-
-  .stormcell-course-img img {
-    width: 300px;
-  }
-
-  .stormcell-course-heading {
-    font-family: var(--productsan-bold);
-    font-size: 35px;
-    color: var(--primary-color);
-  }
-
-  .stormcell-hero-container {
-    padding-bottom: 5rem
-  }
-
+    .hero-section {
+        /* padding-bottom: 4rem; */
+        border-bottom: 3px solid var(--secondary-color);
+    }
+    .stormcell-course-title {
+        font-family: var(--productsan-regular);
+        line-height: 40px;
+        color: var(--primary-color);
+        font-size: 20px;
+    }
+    .stormcell-course-img img {
+        width: 300px;
+    }
+    .stormcell-course-heading {
+        font-family: var(--productsan-bold);
+        font-size: 35px;
+        color: var(--primary-color);
+    }
+    .stormcell-hero-container {
+        padding-bottom: 5rem
+    }
 }
+
 
 /* Media queries end */
