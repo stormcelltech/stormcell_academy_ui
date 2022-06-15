@@ -43,6 +43,17 @@
     padding: 4px 22px 4px 22px
 }
 
+.videohere{
+    width: 100%;
+    height: 300px;
+    /* background-color: blue; */
+}
+
+.videohere iframe{
+    width: 100%;
+    height: 100%;
+}
+
 /* 
 .item2 .videohere{
     position: relative;
@@ -90,8 +101,8 @@
     }
 
     .coursehero .item2 .videohere iframe{
-         width: 60%;
-         margin: 30px;
+         /* width: 60%;
+         margin: 30px; */
     }
 
 }
@@ -192,29 +203,18 @@
     color: #ff6f0f;
 }
 
-.ratings .thumbs .up{
-    /* border: 1px solid #ff6f0f ; */
-    margin: 5px;
-    padding: 16px;
-   
-    background-color: #030d59;
+.thumbs{
+    width: 50px; height:50px; 
 }
-
-.ratings .thumbs .down{
-    /* border: 1px solid #ff6f0f ; */
-    margin: 5px;
-    padding: 16px;
-    background-color: #030d59;
+.thumbs-up-circle{
+    border:2px solid #030d59; color:#030d59;
 }
-
-.ratings .thumbs i{
-    font-size: 22px;
-    color:white;
+.thumbs-down-circle{
+    background-color: #030d59; color:white;
 }
-
 @media (max-width:767px) {
     .ratings .contain{
-        padding: 90px;
+        padding: 0 90px;
         
     }
 
@@ -237,11 +237,10 @@
         text-align: center;
         font-size:13px;
     }
-
-    .ratings .thumbs .up,.down{
-        margin-left: 33%;
-        font-size:13px;
+    .thumbs-holder{
+        justify-content: center;
     }
+    
 }
 
 
