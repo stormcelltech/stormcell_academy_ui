@@ -1,142 +1,583 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="./assets/links/jquery/jquery-3.5.1.min.js"></script>
-    <script src="./assets/links/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
-    <link href="./assets/links/bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="./assets/links/fontawesome-free-6.1.1-web/css/all.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stormcell - Home</title>
+    <script src="./assets/jquery/jquery-3.4.1.min.js"></script>
+    <script src="./assets/stormcell-bs/stormcell-bs-js/bs.bundle.js"></script>
+    <link rel="stylesheet" href="./assets/stormcell-bs/stormcell-bs-css/bs.min.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/awesome/css/all.css" />
+    <link rel="stylesheet" href="./assets/css/teams.css">
+    <link rel="stylesheet" href="assets/css/styleacademy.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link href="./assets1/links/fontawesome-free-6.1.1-web/css/all.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="coursestyle.css">
+    <link rel="stylesheet" href="assets/css/swiper.bundle.min.css">
+
+
 </head>
+
 <body>
-    <div class="course py-5">
-        <div class="serve">
-            <div class="container text-center py-3">
-                <h2>Choose From Our Courses</h2>
-                <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnifugiat obcaecati<br> 
-                   explicabo ab assumenda necessitatibus porro nostrum numquam corporis.</p>
+    
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="assets/images/logo/stormcell-logo-vect.svg" class="stormcell-logo" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="#" class="nav-link stormcell-link">
+                            Categories
+                        </a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <div class="input-group">
+                            <button class="btn btn-default"><i class="fas fa-search"></i></button>
+                            <input type="text" name="search" id="" class="form-control stormcell-search" placeholder="Search..." autocomplete="off" autofocus>
+                        </div>
+                    </form>
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link stormcell-link" href="#">Stormcell Academy </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link stormcell-link" href="courses.html">Courses</a>
+                        </li>
+
+                    </ul>
+                    <div class="btn-container">
+                        <a href="#" class="btn stormcell-secondary-btn">Login<i class="bi bi-lock-fill pl-2"></i></a>
+                        <a href="#" class="btn stormcell-primary-btn">Signup<i
+                            class="bi bi-arrow-right-circle-fill pl-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <section class="hero-section">
+        <div class="container stormcell-container">
+            <div class="row">
+                <div class="col-md-8 mt-5">
+                    <div class="stormcell-hero-container">
+                        <div class="stormcell-course-title-container">
+                            <h1 class="stormcell-course-heading">Acquire Skills</h1>
+                            <p class="stormcell-course-title">Stormcell course to gain Tech skills and Knowledge on Digital programming courses.</p>
+                        </div>
+                        <div class="btn-padding">
+                            <a href="courses.html" class="stormcell-btn">Learn more <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg d-md-block d-none">
+                    <div class="stormcell-course-img">
+                        <!-- <img src="assets/images/background/20220522160320.png" alt=""> -->
+                        <img src="assets/images/background/stormcell-herobackground-img.png" alt="">
+                    </div>
+                </div>
             </div>
         </div>
-           <div class="container">
-              <div class="flex">
-
-                  <div class="contain" id="zoomin">
-                    <div class="fig"><img src="./assets/image/python.jpg"></div>
-                     <div class="content">
-                       <h6>LEARN HTML,CSS & BOOTSTRAP</h6>
-                       <span>4 weeks</span><br>
-                       <span class="icons"><span class="num">4.9</span> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i></span> 
-                       <p class="text-dark" style="font-weight: bold;">#29.2000 <del class="text-muted"> 49.000</del></p>
-                       <button><a href=""><span>learn more </span> <i class="fa-solid fa-arrow-right-long"></i></a></button>
-                     </div>
-                  </div>
-
-                  <div class="contain" id="zoomin">
-                    <div class="fig"><img src="./assets/image/learn.jpg"></div>
-                    <div class="content">
-                      <h6>LEARN HTML,CSS & BOOTSTRAP</h6>
-                      <span>4 weeks</span><br>
-                      <span class="icons"><span class="num">4.9</span> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i></span> 
-                      <p class="text-dark" style="font-weight: bold;">#29.2000 <del class="text-muted"> 49.000</del></p>
-                      <button><a href=""><span>learn more </span> <i class="fa-solid fa-arrow-right-long"></i></a></button>
-                    </div>
-                  </div>
-
-                  <div class="contain" id="zoomin">
-                    <div class="fig"><img src="./assets/image/js react.jpg"></div>
-                    <div class="content">
-                      <h6>LEARN HTML,CSS & BOOTSTRAP</h6>
-                      <span>4 weeks</span><br>
-                      <span class="icons"><span class="num">4.9</span> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i></span> 
-                      <p class="text-dark" style="font-weight: bold;">#29.2000 <del class="text-muted"> 49.000</del></p>
-                      <button><a href=""><span>learn more </span> <i class="fa-solid fa-arrow-right-long"></i></a></button>
-                    </div>
-                  </div>
-
-                  <div class="contain" id="zoomin">
-                    <div class="fig"><img src="./assets/image/learning.jpg"></div>
-                    <div class="content">
-                      <h6>LEARN HTML,CSS & BOOTSTRAP</h6>
-                      <span>4 weeks</span><br>
-                      <span class="icons"><span class="num">4.9</span> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i></span> 
-                      <p class="text-dark" style="font-weight: bold;">#29.2000 <del class="text-muted"> 49.000</del></p>
-                      <button><a href=""><span>learn more </span> <i class="fa-solid fa-arrow-right-long"></i></a></button>
-                    </div>
-                  </div>
-
-                  <div class="contain" id="zoomin">
-                   <div class="fig"> <img src="./assets/image/html.jpg"></div>
-                    <div class="content">
-                      <h6>LEARN HTML,CSS & BOOTSTRAP</h6>
-                      <span>4 weeks</span><br>
-                      <span class="icons"><span class="num">4.9</span> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></span> 
-                      <p class="text-dark" style="font-weight: bold;">#29.2000 <del class="text-muted"> 49.000</del></p>
-                      <button><a href=""><span>learn more </span> <i class="fa-solid fa-arrow-right-long"></i></a></button>
-                    </div>
-                  </div>
-              </div>
-              <div class="flex py-4">
-
-                <div class="contain" id="zoomin">
-                  <div class="fig"><img src="./assets/image/python.jpg"></div>
-                  <div class="content">
-                    <h6>LEARN HTML,CSS & BOOTSTRAP</h6>
-                    <span>4 weeks</span><br>
-                    <span class="icons"><span class="num">4.9</span> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i></span> 
-                    <p class="text-dark" style="font-weight: bold;">#29.2000 <del class="text-muted"> 49.000</del></p>
-                    <button><a href=""><span>learn more </span> <i class="fa-solid fa-arrow-right-long"></i></a></button>
-                  </div>
-                </div>
-
-                <div class="contain" id="zoomin">
-                  <div class="fig"><img src="./assets/image/learning.jpg"></div>
-                  <div class="content">
-                    <h6>LEARN HTML,CSS & BOOTSTRAP</h6>
-                    <span>4 weeks</span><br>
-                    <span class="icons"><span class="num">4.9</span> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i></span> 
-                    <p class="text-dark" style="font-weight: bold;">#29.2000 <del class="text-muted"> 49.000</del></p>
-                    <button><a href=""><span>learn more </span> <i class="fa-solid fa-arrow-right-long"></i></a></button>
-                  </div>
-                </div>
-
-                <div class="contain" id="zoomin">
-                  <div class="fig"><img src="./assets/image/js react.jpg"></div>
-                  <div class="content">
-                    <h6>LEARN HTML,CSS & BOOTSTRAP</h6>
-                    <span>4 weeks</span><br>
-                    <span class="icons"><span class="num">4.9</span> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></span> 
-                    <p class="text-dark" style="font-weight: bold;">#29.2000 <del class="text-muted"> 49.000</del></p>
-                    <button><a href=""><span>learn more </span> <i class="fa-solid fa-arrow-right-long"></i></a></button>
-                  </div>
-                </div>
-
-                <div class="contain" id="zoomin">
-                  <div class="fig"><img src="./assets/image/learn.jpg"></div>
-                  <div class="content">
-                    <h6>LEARN HTML,CSS & BOOTSTRAP</h6>
-                    <span>4 weeks</span><br>
-                    <span class="icons"><span class="num">4.9</span> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i></span> 
-                    <p class="text-dark" style="font-weight: bold;">#29.2000 <del class="text-muted"> 49.000</del></p>
-                    <button><a href=""><span>learn more </span> <i class="fa-solid fa-arrow-right-long"></i></a></button>
-                  </div>
-                </div>
-
-                <div class="contain" id="zoomin">
-                  <div class="fig"><img src="./assets/image/html.jpg"></div>
-                  <div class="content">
-                    <h6>LEARN HTML,CSS & BOOTSTRAP</h6>
-                    <span>4 weeks</span><br>
-                    <span class="icons"><span class="num">4.9</span> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i></span> 
-                    <p class="text-dark" style="font-weight: bold;">#29.2000 <del class="text-muted"> 49.000</del></p>
-                    <button><a href=""><span>learn more </span> <i class="fa-solid fa-arrow-right-long"></i></a></button>
-                  </div>
+    </section>
+    <section id="info-section-settings" class="categories-section shadow-lg">
+        <div class="container"></div>
+        <div class="container">
+            <div class="wrapper">
+                <div class="box">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
                 </div>
             </div>
-           </div>
+            <div class="row">
+                <div class="col-lg col-sm-6 col-10 offset-1 offset-sm-0 my-3">
+                    <div class="card h-100 custom-animate border-0 min-height stormcell-shadow border-radius">
+                        <div class="card-body">
+                            <div class="heading-2 text-center text-capitalize">
+                                <div class="custom-wrapper">
+                                    <div class="custom-img">
+                                        <!-- <img src="./assets/images/icons/track/offer.svg" width="40" alt="" /> -->
+                                        <img src="assets/images/icons/mortarboard.png" width="50" alt="">
+                                    </div>
+                                </div>
+                                <div class="custom-title">Our Offers</div>
+                            </div>
+                            <p class="paragraph-2 text-center text-wrap py-1">
+                                <ul class="pl-5">
+                                    <li>Website Design</li>
+                                    <li>Mobile/Web App Development</li>
+                                    <li>Hosting/Domain Registration</li>
+                                    <li>Social Media/Digital Marketing</li>
+                                    <li>Content Editing</li>
+                                    <li>Graphic Design</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg col-sm-6 col-10 offset-1 offset-sm-0 my-3">
+                    <div class="card h-100 custom-animate border-0 min-height stormcell-shadow border-radius stormcell-p">
+                        <div class="card-body">
+                            <div class="heading-2 text-center text-capitalize">
+                                <div class="custom-wrapper">
+                                    <div class="custom-img">
+                                        <!-- <img src="./assets/images/icons/track/hiking.svg" width="40" alt="" /> -->
+                                        <img src="assets/images/icons/machine-learning.png" width="50" alt="">
+                                    </div>
+                                </div>
+                                <div class="custom-title">established in 2015</div>
+                            </div>
+                            <p class="paragraph-2 text-center text-wrap py-1">
+                                Our products have been tested, proven and improved in over six years. Trust the process!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg col-sm-6 col-10 offset-1 offset-sm-3 offset-lg-0 my-3">
+                    <div class="card h-100 custom-animate border-0 min-height stormcell-shadow border-radius">
+                        <div class="card-body">
+                            <div class="heading-2 text-center text-capitalize">
+                                <div class="custom-wrapper">
+                                    <div class="custom-img">
+                                        <!-- <img src="./assets/images/icons/track/customer-satisfaction.svg" width="40" alt="" /> -->
+                                        <img src="assets/images/icons/think-out-of-the-box.png" width="50" alt="">
+                                    </div>
+                                </div>
+                                <div class="custom-title">over 2,000 satisfied customers</div>
+                            </div>
+                            <p class="paragraph-2 text-center text-wrap py-1">
+                                Stormcell serves thousands of diverse users and we appreciate testimonials from all of them. Start a project with us and join our pages of satisfied customers!
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-    </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="shadow-sm stormcell-primary-border">
+        <div class="container trusted-padding">
+            <div class="trusted-heading text-center my-2">Trusted by</div>
+            <div class="row d-flex justify-content-center" id="wrapper">
+                <div class="t1">
+                    <a href="https://morcrypto-exchange.com" target="_blank"><img src="./assets/images/trusted/morcrypto.png" alt="" /></a>
+
+                </div>
+                <div class="t2">
+                    <a href="#" target="_blank"><img src="./assets/images/trusted/gardencity.png" alt="" /></a>
+                </div>
+                <div class="t3">
+                    <a href="http://schchat.com" target="_blank"><img src="./assets/images/trusted/schchat.png" alt="" /></a>
+                </div>
+                <div class="t4">
+                    <a href="http://npp.ng" target="_blank"><img src="./assets/images/trusted/planet.png" alt="" /></a>
+                </div>
+                <div class="t5">
+                    <a href="http://www.bir.by.gov.ng/" target="_blank"><img src="./assets/images/trusted/bir.png" alt="" /></a>
+                </div>
+            </div>
+            <!-- <div class="d-flex justify-content-center">
+                <a href="#" class="storm-btn storm-btn-black storm-btn-margin">view more
+            <span class="stormcell-icons arrow_forward-sm">arrow_forward</span></a>
+            </div> -->
+
+            <div class="btn-padding text-center">
+                <a href="courses.html" class="stormcell-btn">view more <i class="bi bi-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="course-bg">
+        <div class="course py-5">
+            <div class="serve">
+                <div class="container text-center py-3">
+                    <!-- <h2>Choose From Our Courses</h2> -->
+                    <div class="section-title">
+                        <h2>Choose From Our Courses</h2>
+                        <span class="section-separator"></span>
+                    </div>
+                    <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnifugiat obcaecati<br> explicabo ab assumenda necessitatibus porro nostrum numquam corporis.</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="flex">
+
+                    <div class="contain card border-0 shadow" id="zoomin">
+                        <div class="fig"><img src="./assets1/image/python.jpg"></div>
+                        <div class="content">
+                            <h6>LEARN HTML,CSS & BOOTSTRAP</h6>
+                            <span>4 weeks</span><br>
+                            <span class="icons"><span class="num">4.9</span> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i></span>
+                            <p class="text-dark" style="font-weight: bold;">#29.2000 <del class="text-muted"> 49.000</del></p>
+                            <div class="text-center">
+                                <a href="aboutcourse.html" class="btn btn-sm stormcell-secondary-btn">Learn more<i class="px-1 fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contain card border-0 shadow" id="zoomin">
+                        <div class="fig"><img src="./assets1/image/learn.jpg"></div>
+                        <div class="content">
+                            <h6>LEARN HTML,CSS & BOOTSTRAP</h6>
+                            <span>4 weeks</span><br>
+                            <span class="icons"><span class="num">4.9</span> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i></span>
+                            <p class="text-dark" style="font-weight: bold;">#29.2000 <del class="text-muted"> 49.000</del></p>
+                            <div class="text-center">
+                                <a href="aboutcourse.html" class="btn btn-sm stormcell-secondary-btn">Learn more<i class="px-1 fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contain card border-0 shadow" id="zoomin">
+                        <div class="fig"><img src="./assets1/image/js react.jpg"></div>
+                        <div class="content">
+                            <h6>LEARN HTML,CSS & BOOTSTRAP</h6>
+                            <span>4 weeks</span><br>
+                            <span class="icons"><span class="num">4.9</span> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i></span>
+                            <p class="text-dark" style="font-weight: bold;">#29.2000 <del class="text-muted"> 49.000</del></p>
+                            <div class="text-center">
+                                <a href="aboutcourse.html" class="btn btn-sm stormcell-secondary-btn">Learn more<i class="px-1 fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contain card border-0 shadow" id="zoomin">
+                        <div class="fig"><img src="./assets1/image/learning.jpg"></div>
+                        <div class="content">
+                            <h6>LEARN HTML,CSS & BOOTSTRAP</h6>
+                            <span>4 weeks</span><br>
+                            <span class="icons"><span class="num">4.9</span> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i></span>
+                            <p class="text-dark" style="font-weight: bold;">#29.2000 <del class="text-muted"> 49.000</del></p>
+                            <div class="text-center">
+                                <a href="aboutcourse.html" class="btn btn-sm stormcell-secondary-btn">Learn more<i class="px-1 fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contain card border-0 shadow" id="zoomin">
+                        <div class="fig"> <img src="./assets1/image/html.jpg"></div>
+                        <div class="content">
+                            <h6>LEARN HTML,CSS & BOOTSTRAP</h6>
+                            <span>4 weeks</span><br>
+                            <span class="icons"><span class="num">4.9</span> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></span>
+                            <p class="text-dark" style="font-weight: bold;">#29.2000 <del class="text-muted"> 49.000</del></p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-sm stormcell-secondary-btn">Learn more<i class="px-1 fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contain card border-0 shadow" id="zoomin">
+                        <div class="fig"><img src="./assets1/image/python.jpg"></div>
+                        <div class="content">
+                            <h6>LEARN HTML,CSS & BOOTSTRAP</h6>
+                            <span>4 weeks</span><br>
+                            <span class="icons"><span class="num">4.9</span> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i></span>
+                            <p class="text-dark" style="font-weight: bold;">#29.2000 <del class="text-muted"> 49.000</del></p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-sm stormcell-secondary-btn">Learn more<i class="px-1 fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contain card border-0 shadow" id="zoomin">
+                        <div class="fig"><img src="./assets1/image/learning.jpg"></div>
+                        <div class="content">
+                            <h6>LEARN HTML,CSS & BOOTSTRAP</h6>
+                            <span>4 weeks</span><br>
+                            <span class="icons"><span class="num">4.9</span> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i></span>
+                            <p class="text-dark" style="font-weight: bold;">#29.2000 <del class="text-muted"> 49.000</del></p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-sm stormcell-secondary-btn">Learn more<i class="px-1 fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contain card border-0 shadow" id="zoomin">
+                        <div class="fig"><img src="./assets1/image/js react.jpg"></div>
+                        <div class="content">
+                            <h6>LEARN HTML,CSS & BOOTSTRAP</h6>
+                            <span>4 weeks</span><br>
+                            <span class="icons"><span class="num">4.9</span> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></span>
+                            <p class="text-dark" style="font-weight: bold;">#29.2000 <del class="text-muted"> 49.000</del></p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-sm stormcell-secondary-btn">Learn more<i class="px-1 fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contain card border-0 shadow" id="zoomin">
+                        <div class="fig"><img src="./assets1/image/learn.jpg"></div>
+                        <div class="content">
+                            <h6>LEARN HTML,CSS & BOOTSTRAP</h6>
+                            <span>4 weeks</span><br>
+                            <span class="icons"><span class="num">4.9</span> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i></span>
+                            <p class="text-dark" style="font-weight: bold;">#29.2000 <del class="text-muted"> 49.000</del></p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-sm stormcell-secondary-btn">Learn more<i class="px-1 fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contain card border-0 shadow" id="zoomin">
+                        <div class="fig"><img src="./assets1/image/html.jpg"></div>
+                        <div class="content">
+                            <h6>LEARN HTML,CSS & BOOTSTRAP</h6>
+                            <span>4 weeks</span><br>
+                            <span class="icons"><span class="num">4.9</span> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-solid fa-star-half-stroke"></i></span>
+                            <p class="text-dark" style="font-weight: bold;">#29.2000 <del class="text-muted"> 49.000</del></p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-sm stormcell-secondary-btn">Learn more<i class="px-1 fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Testimonials</h2>
+                <span class="section-separator"></span>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+        </div>
+        <div class="testimonials-carousel-wrap">
+            <div class="listing-carousel-button listing-carousel-button-next"><i class="fa fa-caret-right" style="color: #fff"></i></div>
+            <div class="listing-carousel-button listing-carousel-button-prev"><i class="fa fa-caret-left" style="color: #fff"></i></div>
+            <div class="testimonials-carousel">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testi-item">
+                                <div class="testi-avatar"><img src="assets/images/background/21.jpg"></div>
+                                <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                <div class="testimonials-text">
+                                    <div class="listing-rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                                        to make a type specimen book.</p>
+                                    <a href="#" class="text-link"></a>
+                                    <div class="testimonials-avatar">
+                                        <h3>John Doe</h3>
+                                        <h4>Owner</h4>
+                                    </div>
+                                </div>
+                                <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div>
+                            </div>
+                        </div>
+
+                        <!--second--->
+                        <div class="swiper-slide">
+                            <div class="testi-item">
+                                <div class="testi-avatar"><img src="assets/images/background/3.jpg"></div>
+                                <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                <div class="testimonials-text">
+                                    <div class="listing-rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                                        to make a type specimen book.</p>
+                                    <a href="#" class="text-link"></a>
+                                    <div class="testimonials-avatar">
+                                        <h3>Doe Boe</h3>
+                                        <h4>Director</h4>
+                                    </div>
+                                </div>
+                                <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div>
+                            </div>
+                        </div>
+                        <!--third-->
+
+                        <div class="swiper-slide">
+                            <div class="testi-item">
+                                <div class="testi-avatar"><img src="assets/images/background/4.jpg"></div>
+                                <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                <div class="testimonials-text">
+                                    <div class="listing-rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                                        to make a type specimen book.</p>
+                                    <a href="#" class="text-link"></a>
+                                    <div class="testimonials-avatar">
+                                        <h3>Boe Doe</h3>
+                                        <h4>Developer</h4>
+                                    </div>
+                                </div>
+                                <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div>
+                            </div>
+                        </div>
+
+                        <!--fourth-->
+                        <div class="swiper-slide">
+                            <div class="testi-item">
+                                <div class="testi-avatar"><img src="assets/images/background/6.jpg"></div>
+                                <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                <div class="testimonials-text">
+                                    <div class="listing-rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                                        to make a type specimen book.</p>
+                                    <a href="#" class="text-link"></a>
+                                    <div class="testimonials-avatar">
+                                        <h3>Doe John</h3>
+                                        <h4>Designer</h4>
+                                    </div>
+                                </div>
+                                <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div>
+                            </div>
+                        </div>
+                        <!--testi end-->
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tc-pagination"></div>
+        </div>
+    </section>
+
+    <!--End Testimonial Section -->
+
+
+
+
+
+
+
+
+    <footer class="bg-footer text-dark" id="footer-settings">
+        <div class="container container-footer-spacing">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 col-6">
+                            <ul class="UnorderList-1">
+                                <li class="UnorderList-1-heading">Our Products</li>
+                                <li class="List-item"><a target="_blank" href="http://naijadomains.com">Naija
+                                        Domains</a></li>
+                                <li class="List-item"><a target="_blank" href="#">Zamella</a></li>
+                                <li class="List-item"><a target="_blank" href="#">Price</a></li>
+                                <li class="List-item"><a target="_blank" href="#">Market Place</a></li>
+                                <li class="List-item"><a target="_blank" href="#">Gas Center</a></li>
+                                <li class="List-item"><a target="_blank" href="#">Templates</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-6">
+                            <ul class="UnorderList-2">
+                                <li class="UnorderList-2-heading">Top Client Projects</li>
+                                <li class="List-item"><a target="_blank" href="http://morcrypto-exchange.com">Morypto
+                                        Exchange</a>
+                                </li>
+                                <li class="List-item"><a target="_blank" href="http://schchat.com">SchChat</a></li>
+                                <li class="List-item"><a target="_blank" href="http://quickerclick.com">Quickerclick</a>
+                                </li>
+                                <li class="List-item"><a target="_blank" href="http://rifanonlinemarket.com/">Rifan
+                                        Online Market</a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 col-6">
+                            <ul class="UnorderList-3">
+                                <li class="UnorderList-3-heading">quick Links</li>
+                                <li class="List-item"><a href="about.html">About us</a></li>
+                                <li class="List-item"><a href="contact.html">Contact us</a></li>
+                                <li class="List-item"><a href="what.html">What We Do</a></li>
+                                <li class="List-item"><a href="meet.html">Stormcell Team</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-6">
+                            <ul class="UnorderList-4">
+                                <li class="UnorderList-4-heading">Follow Stormcell</li>
+                                <li class="List-item">
+                                    <div class="footer-social-icon">
+                                        <span>
+                                            <a href="#"><i class="fab fa-facebook"></i></a>
+                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                            <a href="#"><i class="fab fa-instagram"></i></a>
+                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyRight-row copyRight-spacing">
+            <div class="container-fliud line"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <ul class="copyRight-style">
+                            <li><a href="">Copyright &copy; 2021 Stormcell</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $(window).scroll(function() {
+            $("nav").toggleClass("scrolled", $(this).scrollTop() > 20);
+        });
+    </script>
+    <script src="assets/jquery/swiper.bundle.min.js"></script>
+    <script src="assets/jquery/testimonial-slide.js"></script>
+    <script src="./assets/jquery/navtoggler.js"></script>
 </body>
+
 </html>

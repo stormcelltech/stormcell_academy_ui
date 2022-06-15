@@ -1,0 +1,110 @@
+.custom-nav-link .nav-link {
+  color: #000 !important;
+}
+
+.custom-padding {
+  padding: 100px 0 !important;
+}
+
+.custom__img {
+  border-radius: 10px;
+  border: solid 5px #cccccc48;
+  width: 250px;
+}
+
+.custom__card {
+  border-radius: 15px;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#f5c417), color-stop(#ff8f27), color-stop(#f55944), color-stop(#d7265d), color-stop(#a70070), color-stop(#a10071), color-stop(#9b0073), color-stop(#950074), color-stop(#bf266a), color-stop(#dd4f60), color-stop(#f1795b), to(#fba35f));
+  background-image: linear-gradient(to right top, #f5c417, #ff8f27, #f55944, #d7265d, #a70070, #a10071, #9b0073, #950074, #bf266a, #dd4f60, #f1795b, #fba35f);
+  border: 0 !important;
+}
+
+.custom__card-header {
+  background: #0f0044 !important;
+  font-size: 26px;
+  color: #fff !important;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+
+.social-links a {
+  color: #000 !important;
+  text-decoration: none !important;
+  padding: 0 5px;
+  font-size: 20px;
+}
+
+.custom-fb {
+  color: #1877f2;
+}
+
+.custom-tw {
+  color: #1da1f2;
+}
+
+.custom-lk {
+  color: #0077b5;
+}
+
+.Author-name {
+  background-image: -webkit-gradient(linear, left top, right top, from(#051937), color-stop(#02214b), color-stop(#00295f), color-stop(#003074), to(#033889));
+  background-image: linear-gradient(to right, #051937, #02214b, #00295f, #003074, #033889);
+  color: #fff !important;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.dev-name {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ac6612), color-stop(#be7013), color-stop(#d07b15), color-stop(#e28516), to(#f59017));
+  background-image: linear-gradient(to right, #ac6612, #be7013, #d07b15, #e28516, #f59017);
+  margin-top: 0 !important;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.custom__card-text {
+  line-height: 28px;
+}
+
+.profile-head {
+  -webkit-transform: translateY(5rem);
+          transform: translateY(5rem);
+}
+
+.cover {
+  background-image: url(https://images.unsplash.com/photo-1530305408560-82d13781b33a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  background: #f4f4f4;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+.about-fixed {
+  transition: 0.75s ease;
+  background: #fff !important;
+  color: #005bb1 !important;
+  box-shadow: 0px 2px 10px rgba(2, 123, 204, 0.275);
+}
+
+.stormcell-team {
+  background: #fff !important;
+  color: #005bb1 !important;
+  box-shadow: 0px 2px 10px rgba(2, 123, 204, 0.275);
+}
+
+.stormcell-team.scrolled {
+  transition: background, 1s transform;
+  /* height: 90px; */
+  background: #fff !important;
+  color: #005bb1 !important;
+  box-shadow: 0px 2px 10px rgba(2, 123, 204, 0.275);
+}
+.stormcell-custom-bg{
+  background: url("../images/background/bg-hexa.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=custom-css.css.map */
