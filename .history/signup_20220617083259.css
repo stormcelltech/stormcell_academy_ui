@@ -37,37 +37,11 @@
     border: 0px ;
 }
 .custom-accordion{
-    box-shadow: none;
+    background-color: transparent !important;
 }
 .custom-accordion-body{
     background: #fcfcfcd8 !important;
 }
 .custom-pay-button{
-    background-color: rgb(202, 23, 3) !important;
-    color: white !important;
-    box-shadow: none !important;
-}
-.custom-pay-button:hover{
-    background-color: rgb(3, 198, 42) !important;
-    color: white !important;
-    box-shadow: none !important;
-}
-.custom-accordion:focus{
-    box-shadow: none !important;
-}
-.custom-summary{
-    margin-top: 100px;
-}
-.custom-original-price{
-    font-size: 14px;
-}
-.custom-original-price1{
-    font-size: 13px;
-}
-.custom-summary-col{
-    border-radius: 20px;
-}
-.custom-accordion-header:focus{
-    box-shadow: none;
-    background: #e1e6ff79 !important;
+    background-color: red !important;
 }
