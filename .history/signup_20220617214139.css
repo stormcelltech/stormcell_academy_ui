@@ -43,12 +43,12 @@
     background: #fcfcfcd8 !important;
 }
 .custom-pay-button{
-    background-color: rgb(202, 23, 3) !important;
+    background-color: rgb(3, 198, 42) !important;
     color: white !important;
     box-shadow: none !important;
 }
 .custom-pay-button:hover{
-    background-color: rgb(3, 198, 42) !important;
+    background-color: rgb(202, 23, 3) !important;
     color: white !important;
     box-shadow: none !important;
 }

@@ -43,12 +43,7 @@
     background: #fcfcfcd8 !important;
 }
 .custom-pay-button{
-    background-color: rgb(202, 23, 3) !important;
-    color: white !important;
-    box-shadow: none !important;
-}
-.custom-pay-button:hover{
-    background-color: rgb(3, 198, 42) !important;
+    background-color: rgb(209, 4, 4) !important;
     color: white !important;
     box-shadow: none !important;
 }
@@ -65,9 +60,5 @@
     font-size: 13px;
 }
 .custom-summary-col{
-    border-radius: 20px;
-}
-.custom-accordion-header:focus{
-    box-shadow: none;
-    background: #e1e6ff79 !important;
+    border-radius: 10px;
 }
