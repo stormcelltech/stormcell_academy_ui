@@ -1,0 +1,50 @@
+.cust-card{
+    box-shadow: rgba(0, 0, 0, 0.148) 3px 3px  3px 3px;
+    border-radius: 10px;
+}
+.custom-hr-section{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-top: 20px;
+}
+.cust-form-control{
+    border: 0px solid #979797 !important;
+    box-shadow: none !important;
+}
+.cust-form-control:focus{
+    border: 0px solid #979797 !important;
+    box-shadow: none !important;
+}
+.cust-eye-span{
+    border: 0px;
+    background-color: #e9e9eb;
+}
+.cust-eye-span i{
+    color: black;
+}
+
+/* PAYMENT DETAILS SECTION CSS*/
+.custom-payment{
+    background-color: #ffffff !important;
+}
+.cust-form-select{
+    border: 1px solid #041066;
+    border-radius: 10px !important;
+}
+.cust-form-select:focus{
+    box-shadow: none !important;
+    border: 0px ;
+}
+.custom-accordion{
+    box-shadow: none;
+}
+.custom-accordion-body{
+    background: #fcfcfcd8 !important;
+}
+.custom-pay-button{
+    background-color: rgb(209, 4, 4) !important;
+    color: white !important;
+    box-shadow: none !important;
+}
+.
