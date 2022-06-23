@@ -1,5 +1,29 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap'); */
 
+:root {
+    --primary-color: #041066;
+    --secondary-color: #ff6f0f;
+    --gray-color: #e0e0e0;
+    --Roboto-Regular: "Roboto Regular";
+    --Roboto-Bold: "Roboto Bold";
+    --productsan-bold: "Productsans Bold";
+    --productsan-regular: "Productsans Regular";
+    --rating-color: #ffcd3c;
+}
+.text-primary{
+    color: var(--primary-color)!important;
+}
+.text-secondary{
+    color: var(--secondary-color)!important;
+}
+
+.maintext{
+    font-size: 17.6px !important;
+    font-weight: 300 !important;
+    font-family: var(--productsan-regular)!important;
+    line-height: 25px !important;
+}
+
 @font-face {
     src: url(../../assets/font/product-sans/product-sans-regular.ttf);
     font-family: "Productsans Regular";
@@ -59,8 +83,11 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: "Roboto";
+    font-family: var(--Roboto-Regular);
     background: #fcfcfd;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--Roboto-Bold);
 }
 
 .stormcell-icons {
@@ -88,15 +115,7 @@ body {
     font-feature-settings: "liga";
 }
 
-:root {
-    --primary-color: #041066;
-    --secondary-color: #ff6f0f;
-    --gray-color: #e0e0e0;
-    --Roboto-Regular: "Roboto Regular";
-    --productsan-bold: "Productsans Bold";
-    --productsan-regular: "Productsans Regular";
-    --rating-color: #ffcd3c;
-}
+
 
 .stormcell-logo {
     width: 120px;
