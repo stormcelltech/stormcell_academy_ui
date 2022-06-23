@@ -1,3 +1,12 @@
+:root {
+    --primary-color: #041066;
+    --secondary-color: #ff6f0f;
+    --gray-color: #e0e0e0;
+    --Roboto-Regular: "Roboto Regular";
+    --productsan-bold: "Productsans Bold";
+    --productsan-regular: "Productsans Regular";
+    --rating-color: #ffcd3c;
+}
 .cust-card{
     box-shadow: rgba(0, 0, 0, 0.148) 3px 3px  3px 3px;
     border-radius: 10px;
@@ -60,6 +69,7 @@
 }
 .custom-original-price{
     font-size: 14px;
+    
 }
 .custom-original-price1{
     font-size: 13px;
@@ -70,4 +80,10 @@
 .custom-accordion-header:focus{
     box-shadow: none;
     background: #e1e6ff79 !important;
+}
+
+
+
+.p{
+    font-family: var(--productsan-bold) !important;
 }
