@@ -20,6 +20,7 @@
 
 .courseheros .nextitem b {
     font-weight: bold;
+    
 }
 
 .instructor img {
@@ -230,3 +231,87 @@
 
 
 /** ABOUT COURSE END **/
+
+/** ABOUT CLASSROON START **/
+
+
+/* .classroom{
+     background: #e1e6ff79 !important ;
+} */
+
+ 
+
+ .left .bord{
+    background-color: #e1e6ff79 !important ;
+ }
+
+.left .bos .bord{
+    border-top:1px solid black ;
+  background-color: #e1e6ff79 !important ;
+ 
+}
+
+.left  h6{
+    color: #052555f3;
+    font-weight: bold;
+}
+
+.left :hover h6{
+    color: #ff6f0f;
+}
+
+
+.left {
+    /* background: #e1e6ff79 !important ; */
+    border-right: 1px solid #052555f3;
+}
+
+.right{
+     background: #e1e6ff79 !important ;
+     font-weight: bold;
+}
+
+.contain .contain1{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.contain .contain1 .icon{
+    background: #e1e6ff79 !important 
+}
+
+.contain .contain1 .icon i{
+    color: #052555f3 ;
+}
+
+.contain .contain1 .icon:hover i{
+    color: #ff6f0f ;
+}
+
+.contain .contain1 .text a{
+     font-size: 11px;
+     background-color: #ff6f0f;
+     color: #011e49f3;
+     padding: 7px;
+     border-radius: 7px;
+     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.505), 12px 12px 16px 0 rgba(255, 255, 255, 0.104) inset, -8px -8px 12px 0 rgba(175, 106, 3, 0.35) inset;
+     position: relative;
+     transition: .4s ease-in;
+     z-index: 1;
+}
+
+
+.contain .contain1 .text a:hover{
+     font-size: 11px;
+     background-color: #011e49f3;
+     color:#fc7820 ;
+     padding: 7px;
+}
+
+.contain .contain1 .text a i{
+    margin: 5px;
+}
+
+
+
+/** ABOUT CLASSROON START **/

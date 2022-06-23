@@ -1,0 +1,9 @@
+.cust-card{
+    box-shadow: rgba(0, 0, 0, 0.148) 3px 3px  3px 3px;
+    border-radius: 10px;
+}
+.custom-hr-section{
+    width: 100px;
+    height: 1px;
+    color: black;
+}
