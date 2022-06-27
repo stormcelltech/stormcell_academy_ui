@@ -115,6 +115,7 @@
 .custom-accordion-header{
     background-color: #09b1b7;
     color: #ffffff;
+    text-align: center;
 }
 .custom-accordion-header2{
     background-color: var(--secondary-color);
@@ -132,9 +133,5 @@
 }
 .custom-accordion-header2:focus{
     box-shadow: none;
-}
-.custom-close-icon{
-    color: var(--primary-color) !important;
-    font-size: 25px;
 }
 

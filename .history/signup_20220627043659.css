@@ -116,12 +116,8 @@
     background-color: #09b1b7;
     color: #ffffff;
 }
-.custom-accordion-header2{
-    background-color: var(--secondary-color);
-    color: #ffffff;
-}
 .custom-accordion-header3{
-    background-color: #041066;
+    background-color: #09b1b7;
     color: #ffffff;
 }
 .custom-accordion-header:focus{
@@ -130,11 +126,3 @@
 .custom-accordion-header3:focus{
     box-shadow: none;
 }
-.custom-accordion-header2:focus{
-    box-shadow: none;
-}
-.custom-close-icon{
-    color: var(--primary-color) !important;
-    font-size: 25px;
-}
-
