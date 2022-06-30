@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5, h6{
     padding-bottom: 0rem;
     /* background-color: #006fd642; */
     /* background: #98c2e75f; */
-    background: url(../images/background/v960-ning-2888.jpg);
+    background: url(../images/background/v960-ning-28882.jpg);
     background-size: cover;
     background-position: center center;
     border-bottom: 3px solid var(--secondary-color);
@@ -250,8 +250,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .stormcell-btn {
-    background: var(--primary-color);
-    color: var(--gray-color);
+    background: var(--gray-color);
+    color: #000000;
     padding: 10px 30px;
     border-radius: 5px;
     transition: all .5s ease-in-out;
@@ -266,11 +266,12 @@ h1, h2, h3, h4, h5, h6{
     padding-top: 30px;
 }
 
-.stormcell-course-title {
-    font-family: var(--productsan-regular);
-    line-height: 55px;
-    color: var(--primary-color);
+.stormcell-course-title{
+    font-family: var(--Roboto-Regular);
+    line-height: 40px;
+    color: var(--rating-color);
     font-size: 30px;
+
 }
 
 .stormcell-course-img img {
@@ -280,7 +281,8 @@ h1, h2, h3, h4, h5, h6{
 .stormcell-course-heading {
     font-family: var(--productsan-bold);
     /* text-shadow: 0px 1px 4px rgb(0 0 0 / 51%); */
-    color: var(--primary-color);
+    color: var(--gray-color);
+    font-size: 80px;
 }
 
 
@@ -926,8 +928,8 @@ html {
     .stormcell-course-title {
         font-family: var(--productsan-regular);
         line-height: 40px;
-        color: var(--primary-color);
-        font-size: 20px;
+        color: var(--rating-color);
+        font-size: 30px;
     }
     .stormcell-course-img img {
         width: 390px;
@@ -936,8 +938,8 @@ html {
     }
     .stormcell-course-heading {
         font-family: var(--productsan-bold);
-        font-size: 35px;
-        color: var(--primary-color);
+        font-size: 60px;
+        color: var(--gray-color);
     }
     .stormcell-hero-container {
         padding-bottom: 5rem
