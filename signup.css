@@ -1,12 +1,4 @@
-:root {
-    --primary-color: #041066;
-    --secondary-color: #ff6f0f;
-    --gray-color: #e0e0e0;
-    --Roboto-Regular: "Roboto Regular";
-    --productsan-bold: "Productsans Bold";
-    --productsan-regular: "Productsans Regular";
-    --rating-color: #ffcd3c;
-}
+
 .cust-card{
     box-shadow: rgba(0, 0, 0, 0.148) 3px 3px  3px 3px;
     border-radius: 10px;
