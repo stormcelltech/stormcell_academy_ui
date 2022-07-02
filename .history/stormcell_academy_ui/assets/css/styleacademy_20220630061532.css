@@ -1,0 +1,826 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap'); */
+
+@font-face {
+    src: url(../../assets/font/product-sans/product-sans-regular.ttf);
+    font-family: "Productsans Regular";
+}
+
+@font-face {
+    src: url(../../assets/font/product-sans/product-sans-bold.ttf);
+    font-family: "Productsans Bold";
+}
+
+@font-face {
+    src: url(../../assets/font/italianno/italianno-regular.ttf);
+    font-family: "Italianno Regular";
+}
+
+@font-face {
+    src: url(../../assets/font/Roboto/Roboto-Bold.ttf);
+    font-family: "Roboto Bold";
+}
+
+@font-face {
+    src: url(../../assets/font/Roboto/Roboto-Regular.ttf);
+    font-family: "Roboto Regular";
+}
+
+@font-face {
+    src: url(../../assets/font/Viaoda_Libre/ViaodaLibre-Regular.ttf);
+    font-family: "ViaodaLibre Font";
+}
+
+@font-face {
+    src: url(../../assets/font/Roboto/Roboto-Medium.ttf);
+    font-family: "Roboto Regular";
+}
+
+
+/* MATERIAL GOOGLE ICONS */
+
+@font-face {
+    font-family: "Material Icons";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../iconfont/MaterialIcons-Regular.eot);
+    /* For IE6-8 */
+    src: local("Material Icons"), local("MaterialIcons-Regular"), url(https://fonts.gstatic.com/s/materialicons/v21/2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2) format("woff2"), url(../iconfont/MaterialIcons-Regular.woff2) format("woff2"), url(../iconfont/MaterialIcons-Regular.woff) format("woff"), url(../iconfont/MaterialIcons-Regular.ttf) format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Roboto";
+    background: #fcfcfd;
+}
+
+.stormcell-icons {
+    /* font-family: 'Material Icons'; */
+    font-family: "Material Icons";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    vertical-align: middle !important;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: "liga";
+}
+
+:root {
+    --primary-color: #041066;
+    --secondary-color: #ff6f0f;
+    --gray-color: #e0e0e0;
+    --Roboto-Regular: "Roboto Regular";
+    --productsan-bold: "Productsans Bold";
+    --productsan-regular: "Productsans Regular";
+    --rating-color: #ffcd3c;
+}
+
+.stormcell-logo {
+    width: 120px;
+}
+
+
+/* Navbar search settings */
+
+.btn-default {
+    background: transparent !important;
+    border: solid 1px var(--primary-color);
+    border-right: transparent !important;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.stormcell-search {
+    border: solid 1px var(--primary-color);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: 0 !important;
+    width: 500px;
+    max-width: 500px;
+}
+
+.stormcell .stormcel-search:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    border-color: none !important;
+}
+
+
+/* Navbar search settings  end */
+
+
+/* Stormcell Button */
+
+
+/* .storm-btn {
+    background: #ff6f0f;
+    padding: 12px 20px 12px 20px;
+    text-decoration: none !important;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    transition: 0.5s linear all;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.505),
+      12px 12px 16px 0 rgba(255, 255, 255, 0.104) inset,
+      -8px -8px 12px 0 rgba(175, 106, 3, 0.35) inset;
+  } */
+
+.stormcell-secondary-btn {
+    background: var(--secondary-color);
+    color: #fff;
+    padding: 5px 10px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.505), 12px 12px 16px 0 rgba(255, 255, 255, 0.104) inset, -8px -8px 12px 0 rgba(175, 106, 3, 0.35) inset;
+}
+
+.stormcell-secondary-btn:hover {
+    background: var(--primary-color);
+    color: #fff !important;
+    box-shadow: none !important;
+}
+
+.stormcell-primary-btn {
+    border: solid 3px var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.stormcell-primary-btn:hover {
+    /* font-weight: bold; */
+    border: solid 3px var(--secondary-color);
+    color: var(--secondary-color);
+    /* font-weight: 300; */
+}
+
+.storm-btn-margin {
+    margin: 20px;
+}
+
+.storm-btn:hover {
+    color: #fff !important;
+    background: #0070d6;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.505), 12px 12px 16px 0 rgba(255, 255, 255, 0.104) inset, -8px -8px 12px 0 rgba(28, 28, 28, 0.35) inset;
+}
+
+.btn-default {
+    background: #fff !important;
+}
+
+.btn-default:focus {
+    border-color: none !important;
+    box-shadow: none !important;
+}
+
+
+/* stormcell button end */
+
+
+/* stormcell link */
+
+.nav-link.stormcell-link {
+    padding: 0 10px;
+    color: var(--primary-color) !important;
+    font-weight: 600;
+    transition: all .5s ease-in-out;
+}
+
+.stormcell-link:hover {
+    color: var(--secondary-color) !important;
+}
+
+.hero-section {
+    padding-top: 5rem;
+    padding-bottom: 0rem;
+    /* background-color: #006fd642; */
+    /* background: #98c2e75f; */
+    background: url(../images/background/v960-ning-28882.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-bottom: 3px solid var(--secondary-color);
+}
+
+.stormcell-hero-img {
+    width: 350px !important;
+}
+
+.stormcell-container {
+    /* background: #ffffff; */
+}
+
+.stormcell-course-title-container {
+    /* background: #ffffff72; */
+}
+
+.stormcell-btn {
+    background: var(--secondary-color) !important;
+    color: var(--gray-color);
+    padding: 10px 30px;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+
+.stormcell-btn:hover {
+    background: #030a44;
+    color: #fff;
+}
+
+.btn-padding {
+    padding-top: 30px;
+}
+
+.stormcell-course-title {
+    font-family: var(--productsan-regular);
+    line-height: 55px;
+    color: var(--primary-color);
+    font-size: 30px;
+}
+
+.stormcell-course-img img {
+    width: 400px;
+}
+
+.stormcell-course-heading {
+    font-family: var(--productsan-bold);
+    /* text-shadow: 0px 1px 4px rgb(0 0 0 / 51%); */
+    color: var(--primary-color);
+}
+
+
+/* stormcell link end */
+
+.form-control:focus {
+    border-color: var(--primary-color) !important;
+    /* border-color: var(--secondary-color); */
+    /* box-shadow: 0 0 0 0.2rem rgba(167, 116, 40, 0.25); */
+    box-shadow: none !important;
+}
+
+
+/* Categorie section start */
+
+.categories-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: #dcf4fb97 !important;
+}
+
+.card-stormcell-title {
+    color: var(--primary-color);
+    font-weight: 600 !important;
+    text-transform: uppercase;
+}
+
+.stormcell-course-descrip {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.stormcell-custom-card {
+    border-radius: 20px;
+}
+
+
+/* Categorie section end */
+
+
+/* stormcell custom card */
+
+.custom-img {
+    display: inline-block;
+    background: #0090de6b;
+    padding: 7px;
+    border-radius: 20px;
+    border: solid 5px rgb(253, 249, 249);
+    box-shadow: 0px 1px 4px rgba(4, 144, 168, 0.419);
+    transform: rotate(-45deg);
+}
+
+.custom-wrapper {
+    display: block;
+    margin: 0 auto !important;
+    padding: 0 0 20px 0 !important;
+}
+
+.custom-img img {
+    width: 60px;
+    transform: rotate(45deg);
+    margin: 0 auto !important;
+}
+
+.custom-animate:hover {
+    animation: borderClass 1s linear;
+}
+
+@keyframes borderClass {
+    from {
+        transform: translateX(20px);
+    }
+    to {
+        transform: translateX(-20px);
+    }
+}
+
+.custom-title {
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.border-radius {
+    border-radius: 15px;
+}
+
+.stormcell-shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15), 12px 12px 16px 0 rgba(255, 255, 255, 0.104) inset, -8px -8px 12px 0 rgba(211, 212, 213, 0.25) inset !important;
+}
+
+
+/* stormcell product end */
+
+
+/* Stormcell background animation start */
+
+.wrapper {
+    position: relative;
+    /* vertical-align: middle; */
+    width: 100%;
+    top: -50%;
+    /* overflow: hidden; */
+    /* background: #ccc; */
+}
+
+.box div {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: 3px solid rgba(162, 160, 160, 0.8);
+    /* border-radius: 50%; */
+}
+
+.box div:nth-child(1) {
+    top: 12%;
+    left: 42%;
+    animation: animate 10s linear infinite;
+    border-radius: 50%;
+    border: 3px solid #0086dd;
+}
+
+.box div:nth-child(2) {
+    top: 70%;
+    left: 50%;
+    animation: animate 7s linear infinite;
+    border: 3px solid #ddc700;
+}
+
+.box div:nth-child(3) {
+    top: 17%;
+    left: 6%;
+    animation: animate 9s linear infinite;
+    border: 3px solid #15e649;
+}
+
+.box div:nth-child(4) {
+    top: 20%;
+    left: 60%;
+    animation: animate 10s linear infinite;
+    border: 3px solid #dd00dd;
+}
+
+.box div:nth-child(5) {
+    border-radius: 50%;
+    top: 67%;
+    left: 10%;
+    animation: animate 12s linear infinite;
+    border: 3px solid #c91c6d;
+}
+
+.box div:nth-child(6) {
+    top: 80%;
+    left: 70%;
+    animation: animate 6s linear infinite;
+    border: 3px solid #0ea4b8;
+}
+
+.box div:nth-child(7) {
+    top: 60%;
+    left: 80%;
+    animation: animate 15s linear infinite;
+}
+
+.box div:nth-child(8) {
+    top: 32%;
+    left: 25%;
+    animation: animate 16s linear infinite;
+    border: 3px solid #e99b0c;
+}
+
+.box div:nth-child(9) {
+    top: 90%;
+    left: 25%;
+    animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(10) {
+    top: 20%;
+    left: 80%;
+    animation: animate 5s linear infinite;
+    border: 3px solid #ddbc00;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.3) translateY(-90px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+.course-bg {
+    background: #ffff !important;
+}
+
+.custom-title {
+    font-family: var(--productsan-bold);
+    font-size: 20px;
+}
+
+
+/* stormcell custom card end */
+
+
+/* TRUSTED START */
+
+.t1 img {
+    width: 150px;
+    display: inline-block;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.t2 img {
+    width: 150px;
+    display: inline-block;
+    padding: 20px;
+}
+
+.t3 img {
+    width: 150px;
+    display: inline-block;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.t4 img {
+    width: 150px;
+    display: inline-block;
+    padding: 20px;
+}
+
+.t5 img {
+    width: 120px;
+    display: inline-block;
+    padding: 20px;
+}
+
+.trusted-heading {
+    font-size: 25px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    font-family: "Roboto Regular" !important;
+    font-style: italic;
+}
+
+.trusted-padding {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.stormcell-primary-border {
+    border-top: 3px solid var(--primary-color)
+}
+
+
+/* TRUSTED END */
+
+
+/* Testimonial section */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+html {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.testimonial-section {
+    /* float: left; */
+    position: relative;
+    padding: 30px 0;
+    background: #ff6f0f29;
+    z-index: 1;
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+}
+
+.section-title {
+    float: left;
+    position: relative;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.section-title p {
+    color: #7d93b2;
+    font-size: 13px;
+    line-height: 20px;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.section-title h2 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 34px;
+    font-weight: 800;
+    position: relative;
+}
+
+.section-separator {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin: 10px 0;
+}
+
+.section-separator:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 3px;
+    width: 50px;
+    border-radius: 3px;
+    z-index: 2;
+    background-color: var(--primary-color);
+    margin-left: -25px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.listing-carousel-button {
+    position: absolute;
+    top: 50%;
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: -25px;
+    z-index: 100;
+    cursor: pointer;
+    background: var(--primary-color);
+    box-shadow: 0 9px 26px rgba(58, 87, 135, 0.45);
+    transition: all 200ms linear;
+    outline: none;
+}
+
+.listing-carousel-button.listing-carousel-button-next {
+    right: -30px;
+    padding-right: 20px;
+    border-radius: 60px 0 0 60px;
+}
+
+.listing-carousel-button.listing-carousel-button-prev {
+    left: -30px;
+    padding-left: 20px;
+    border-radius: 0 60px 60px 0;
+}
+
+.listing-carousel-button.listing-carousel-button-next:hover {
+    right: -15px;
+    background: rgba(6, 27, 65, 0.4);
+}
+
+.listing-carousel-button.listing-carousel-button-prev:hover {
+    left: -15px;
+    background: rgba(6, 27, 65, 0.4);
+}
+
+.testi-item {
+    transition: all .3s ease-in-out;
+    transform: scale(0.9);
+    opacity: 0.9;
+}
+
+.testimonials-text {
+    padding: 75px 50px 75px;
+    overflow: hidden;
+    background: #f5f6fa;
+    border: 1ps solid #f1f1f1;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.testimonials-text-after {
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    position: absolute;
+    color: #ccc;
+    opacity: .3;
+    font-size: 35px;
+    transition: all 400ms linear;
+    bottom: 25px;
+    right: 30px;
+}
+
+.testimonials-text-before {
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    position: absolute;
+    color: #ccc;
+    opacity: .3;
+    font-size: 35px;
+    transition: all 400ms linear;
+    top: 25px;
+    left: 30px;
+}
+
+.testimonials-text .listing-rating {
+    float: none;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+.listing-rating i {
+    color: var(--rating-color);
+}
+
+.testimonials-avatar h3 {
+    font-weight: 600;
+    color: #7d93b2;
+    font-size: 18px;
+}
+
+.testimonials-avatar h4 {
+    font-weight: 400;
+    font-size: 12px;
+    padding-top: 6px;
+    color: #007aff;
+}
+
+.testimonials-carousel .swiper-slide {
+    padding: 30px 0;
+}
+
+.testi-avatar {
+    position: absolute;
+    left: 50%;
+    top: -30px;
+    width: 90px;
+    height: 90px;
+    margin-left: -45px;
+    z-index: 20;
+}
+
+.testi-avatar img {
+    width: 90px;
+    height: 90px;
+    float: left;
+    border-radius: 100%;
+    border: 6px solid #fff;
+    box-shadow: 0 9px 26px rgba(58, 87, 135, 0.1);
+}
+
+.swiper-slide-active .testimonials-text {
+    background: #fff;
+    box-shadow: 0 9px 26px rgba(58, 87, 135, 0.1);
+}
+
+.testimonials-text p {
+    color: #878c9f;
+    font-size: 14px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    line-height: 24px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.text-link {
+    position: absolute;
+    bottom: 0;
+    padding: 15px 0;
+    border-radius: 10px 10px 0 0;
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.03);
+    left: 50%;
+    width: 200px;
+    margin-left: -100px;
+}
+
+.swiper-slide-active .testi-item {
+    opacity: 1;
+    transform: scale(1.0);
+}
+
+.tc-pagination {
+    float: left;
+    margin-top: 10px;
+    width: 100% !important;
+}
+
+.tc-pagination_wrap {
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    width: 100%;
+}
+
+.tc-pagination2 {
+    float: none;
+    display: inline-block;
+    padding: 14px 0;
+    background: #fff;
+    border-radius: 30px;
+    min-width: 250px;
+    border-bottom: 0;
+}
+
+.tc-pagination .swiper-pagination-bullet,
+.tc-pagination2.swiper-pagination-bullet {
+    opacity: 1;
+    background: #384f95;
+    margin: 0 2px;
+    width: 10px;
+    height: 10px;
+    transition: all 300ms ease-in-out;
+}
+
+
+/* Testimonial section end */
+
+
+/* Media queries */
+
+@media screen and (max-width:992px) {
+    .hero-section {
+        /* padding-bottom: 4rem; */
+        border-bottom: 3px solid var(--secondary-color);
+    }
+    .stormcell-course-title {
+        font-family: var(--productsan-regular);
+        line-height: 40px;
+        color: var(--primary-color);
+        font-size: 20px;
+    }
+    .stormcell-course-img img {
+        width: 300px;
+    }
+    .stormcell-course-heading {
+        font-family: var(--productsan-bold);
+        font-size: 35px;
+        color: var(--primary-color);
+    }
+    .stormcell-hero-container {
+        padding-bottom: 5rem
+    }
+}
+
+
+/* Media queries end */
