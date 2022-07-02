@@ -1,189 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stormcell - Home</title>
-    <script src="./assets1/links/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
-    <link href="./assets1/links/bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="./assets1/links/fontawesome-free-6.1.1-web/css/all.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="./assets1/aboutcourse.css" type="text/css">
     <script src="./assets/jquery/jquery-3.4.1.min.js"></script>
-    <script src="./assets/stormcell-bs/stormcell-bs-js/bs.bundle.js"></script>
-    <link rel="stylesheet" href="./assets/stormcell-bs/stormcell-bs-css/bs.min.css" />
+    <script src="./assets1/links/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+    <!-- <script src="./assets/stormcell-bs/stormcell-bs-js/bs.bundle.js"></script> -->
+    <link href="./assets1/links/bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="./assets/css/responsive.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="stylesheet" href="./assets/awesome/css/all.css" />
     <link rel="stylesheet" href="./assets/css/teams.css">
     <link rel="stylesheet" href="assets/css/styleacademy.css">
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
-    <link href="./assets1/links/fontawesome-free-6.1.1-web/css/all.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="coursestyle.css">
+    <link href="./assets/fontawesome-free-6.1.1-web/css/all.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="assets/css/swiper.bundle.min.css">
-
-
-</head>
-<style>
-
-     /** ABOUT CLASSROON START **/
-
-/* :root {
-    --primary-color: #041066;
-    --secondary-color: #ff6f0f;
-    --gray-color: #e0e0e0;
-    --Roboto-Regular: "Roboto Regular";
-    --productsan-bold: "Productsans Bold";
-    --productsan-regular: "Productsans Regular";
-    --rating-color: #ffcd3c;
-} */
- 
-
-.left .bord{
-    background-color: #052555f3;
-    border-radius: 4px;
     
- }
-
-.left .bos .bord{
-    border-top:1px solid black ;
-  background-color: #052555f3 ;
- 
-}
-
-.left  h6{
-    color: white;
-    font-weight: bold;
-    font-family: var(--productsan-bold);
-}
-
-.left :hover h6{
-    color: #ff6f0f;
-}
-
-
-.left {
-    border-right: 1px solid #052555f3;
-}
-
-/* .right{
-     background: #e1e6ff79 !important ;
-     font-weight: bold;
-}
-
-.right .area{
-    border-top-right-radius: 4px;
-    background-color: #052555f3;
-    color: white;
-    font-family: var(--productsan-regular);
-}
-
-.right .line{
-    background-color: #052555f3;
-    color: white;
-    font-family: var(--Roboto-Regular);
-}
-
-.contain .contain1{
-    background-color: white;
-    border-radius: 4px;
-    font-family: var(--productsan-bold);
-}
-
-.contain .contain1 .icon{
-    background: #052555f3 !important 
-}
-
-.contain .contain1 .icon i{
-    color: white ;
-}
-
-.contain .contain1 .icon:hover i{
-    color: #ff6f0f ;
-}
-
-.contain .contain1 .text a{
-     font-family: var(--productsan-regular);
-     font-size: 11px;
-     color: white;
-     padding: 7px;
-     border-radius: 2px;
-     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.505), 12px 12px 16px 0 rgba(255, 255, 255, 0.104) inset, -8px -8px 12px 0 rgba(175, 106, 3, 0.35) inset;
-     position: relative;
-     transition: .4s ease-in;
-    border: none;
-    text-decoration: none;
-    background-color: #ff6f0f;
-    box-shadow: rgba(68, 32, 1, 0.788) 2px 2px 0px;
-    transition: transform 200ms, box-shadow 200ms;
-
-}
-
-
-.contain .contain1 .text a:hover{
-     font-size: 11px;
-     background-color: #011e49f3;
-     color:#fc7820 ;
-     padding: 7px;
-}
-
-.contain .contain1 .text a i{
-    margin: 5px;
-} */
-
-
-/** ABOUT CLASSROON END **/
-
-    /** ABOUT LEARN START **/
-
-.learn h5,h6{
-    font-weight: bolder;
-    font-family: var(--productsan-regular);
-}
-
-
-
-  .learn .vid{
-    width: 100% !important; 
-    height: 100% !important;
-} 
-
-/** ABOUT LEARN END **/
-</style>
-
-
-<body>
-    
-
+    <style>
+        a{
+            text-decoration: none;
+        }
+    </style>
+  
+  </head>
+  
+  <body>
+  
+  
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="assets/images/logo/stormcell-logo-vect.svg" class="stormcell-logo" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
+                <a class="navbar-toggler border-0 third-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <div class="menu-icon-bg">
+                        <div class="menu-icon3">
+                            <span></span><span></span><span></span>
+                        </div>
+                    </div>
+                </a>
+                <!-- <a class="navbar-toggler third-button" type="button" data-toggle="collapse" data-target="#stormcellContent" aria-controls="stormcellContent" aria-expanded="false" aria-label="Toggle navigation">
+                    
+                </a> -->
+  
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item"><a href="#" class="nav-link stormcell-link">
-                            Categories
+                           
                         </a>
                         </li>
                     </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <div class="input-group">
-                            <button class="btn btn-default"><i class="fas fa-search"></i></button>
-                            <input type="text" name="search" id="" class="form-control stormcell-search" placeholder="Search..." autocomplete="off" autofocus>
-                        </div>
-                    </form>
-                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    
+                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                         <li class="nav-item">
                             <a class="nav-link stormcell-link" href="#">Stormcell Academy </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link stormcell-link" href="courses.html">Courses</a>
                         </li>
-
+  
                     </ul>
                     <div class="btn-container">
                         <a href="#" class="btn stormcell-secondary-btn">Login<i class="bi bi-lock-fill pl-2"></i></a>
@@ -193,13 +67,21 @@
                 </div>
             </div>
         </nav>
-
+  
     </header>
-
-    <div class="classroom p-5">
+    <style>
+        .right p{
+            font-weight: 300!important;
+        }
+        small {
+            font-size: 70%!important;
+            font-weight: 300!important;
+        }
+       </style>
+    <div class="classroom main-container">
 
         <!-- <div class="container"> -->
-            <div class="row">
+            <div class="row px-5    ">
                 <div class=" left col-sm-3 col-md-3">
                    <div class="bord shadow mb-3 p-2">
                        <div class=" container text-center">
@@ -255,19 +137,25 @@
      
                               <div class="container" style="padding: 0 39px 0 39px;">
                                 <h5 class="my-3">Understanding Javascript</h5>
-                                <h6>Learn more about Javascript</h6>
+                                <h6>Video One Title</h6>
                           
                                 <div class=" pt-5">
                                   <iframe class="vid"  src="https://www.youtube.com/embed/9YffrCViTVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
+                                <div class="mt-3">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quas, molestias assumenda laborum iste, dolores maxime quo repellendus debitis eaque voluptatum labore nobis ut molestiae aliquid reprehenderit qui libero modi.
+                                    </p> 
 
-                                <h5 class="my-5">Understanding Javascript:  <small style="font: weight 100px;;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel esse illo quo perferendis a nulla sit natus magnam dolores. Eligendi.</small</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quas, molestias assumenda laborum iste, dolores maxime quo repellendus debitis eaque voluptatum labore nobis ut molestiae aliquid reprehenderit qui libero modi.
+                                    </p> 
 
-                                <h5 class="my-4">Understanding Javascript:  <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel esse illo quo perferendis a nulla sit natus magnam dolores. Eligendi.</small</h5>   
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quas, molestias assumenda laborum iste, dolores maxime quo repellendus debitis eaque voluptatum labore nobis ut molestiae aliquid reprehenderit qui libero modi.
+                                    </p> 
+                                </div>
                                 
-                                <h5 class="my-4">Understanding Javascript:  <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel esse illo quo perferendis a nulla sit natus magnam dolores. Eligendi.</small</h5>  
-                                 
-                                <h5 class="my-4">Understanding Javascript:  <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel esse illo quo perferendis a nulla sit natus magnam dolores. Eligendi.</small</h5>    
                               </div>
                             
                                               
@@ -278,6 +166,7 @@
 
    </div>
 
+  
 
 </body>
 </html>
