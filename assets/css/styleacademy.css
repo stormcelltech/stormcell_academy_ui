@@ -1176,18 +1176,20 @@ html {
 .learning-option .accordion-button.learning-option-1-header{
     background-color: #09b1b7;
     color: #ffffff;
+    box-shadow: none;
     
 }
 
 .learning-option .accordion-button.learning-option-2-header{
     background-color: #8e8665;
     color: #ffffff;
-    
+    box-shadow: none;
 }
 
 .learning-option .accordion-button.learning-option-3-header{
     background-color: #d8b25c;
     color: #ffffff;
+    box-shadow: none;
     
 }
 /* .learning-option .accordion-button:not(.collapsed){
@@ -1270,11 +1272,7 @@ html {
     text-align: left;
 }
 
-.videohere {
-    width: 100%;
-    height: 400px;
-    /* background-color: blue; */
-}
+
 
 .videohere iframe {
     width: 100%;
@@ -1563,3 +1561,184 @@ html {
     height: 400px;
     width: 100%;
 }
+
+
+
+/* COURSE UPLOAD SESSION */
+.custom-upload-container{
+    background-color: #F4F4F4 !important;
+}
+.custom-control-form{
+    border-radius: 15px;
+}
+.custom-control-form1{
+    border-radius: 15px;
+}
+.custom-upload-card{
+    border-radius: 15px !important;
+    background-color: white !important;
+}
+.custom-bord{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 14px;
+    color: #041066;
+    text-decoration: none !important;
+}
+
+.custom-icon-circle{
+    border-radius: 40px;
+    height: 40px;
+    width: 40px;
+    background-color: var(--secondary-color);
+}
+.custom-icon-circle i{
+    color: white;
+}
+.custom-input-circle{
+    border-radius: 40px;
+    border: none;
+}
+.custom-group-input{
+    border: 1px solid #d0d0d0;
+    border-radius: 40px 40px 40px 40px;
+    background: rgba(233, 233, 233, 0.41);
+    /* border: 0.815789px solid rgba(4, 16, 102, 0.18);
+    border-radius: 15px; */
+}
+.custom-input-circle-file{
+    border-radius: 30px;
+    border: none;
+    
+}
+
+.custom-input-textarea{
+    border-radius: 15% !important;
+}
+.custom-textarea{
+    border-radius: 15px !important;
+}
+.custom-upload-button{
+    width: 200px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    border: none;
+}
+.custom-upload-button:hover{
+    border: none;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    color: #000000;
+}
+
+.custom-thtd-center{
+   vertical-align: middle;
+}
+.custom-thtd-center th,td{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+ }
+.custom-icon-div{
+    width: 33px;
+    height: 35px;
+    background-color: #F02626;
+    border-radius: 10px;
+}
+.custom-icon-div1{
+    width: 33px;
+    height: 35px;
+    background-color: #19B829;
+    border-radius: 10px;
+}
+.custom-tr th{
+    color: #716D6D !important;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17.9414px;
+    line-height: 21px;
+}
+
+/* CSS OF COURSE MANAGEMENT PAGE */
+.custom-heading-meta{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 43px;
+    color: #041066;
+}
+.custom-lorem-p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+    color: #6A6A6A;
+}
+
+
+.videohere {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    
+}
+
+
+  .video-wrapper__overlay {
+    position: absolute;
+    width: 91%;
+    min-height: 350px;
+    right: 25px;
+    top: 20px;
+    pointer-events: none;
+    background: rgba(0, 0, 0, 0.519) url($play-icon) no-repeat 50% 50%;
+    z-index: 99;
+   
+  }
+  
+  .video-wrapper.-active .video-wrapper__overlay {
+    opacity: 0;
+  }
+  
+  
+  .video-wrapper__video iframe {
+    display: block;
+  }
+  .custom-btn-add{
+    background-color: #ffffff;
+    width: 175px;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #030540;
+    box-shadow: none;
+  }
+  .custom-btn-add:hover{
+    background-color: var(--primary-color);
+    color: white;
+    box-shadow: none;
+  }
+  .custom-btn-add:focus{
+    box-shadow: none;
+  }
+
+
+
+
+
+
+
+    

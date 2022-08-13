@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Schchat - Dashboard</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./fontawesome/css/all.css">
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/Schchat-dashboard.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="border-right" id="sidebar-wrapper">
+   <div class="d-flex justify-content-center pt-5">
+    <div class="circular--portrait">
+      <img src="./images/Schchat-image.png" alt="">
+    </div>
+  
+   </div>
+   <div class="text-center py-2">
+    Welcome Daniel !
+  </div>
+    
+    
+      
+
+       <div class="Schchat-list-group list-group list-group-flush">
+
+        <a href="#" class="myActive list-group-item list-group-item-action bg-light"><i class="bi bi-house pr-2 h5"></i>Dashboard</a>
+        <a href="#" class="myActive list-group-item list-group-item-action bg-light"><i class="bi bi-book-half pr-2 h5"></i>My Books</a>
+
+        <a class="myActive list-group-item list-group-item-action text-decoration-none stretched-link" href="#submenu1" data-toggle="collapse" data-target="#submenu1"><i class="fas fa-project-diagram pr-2 h6"></i>My Assignment</a>
+        <div class="collapse" id="submenu1" aria-expanded="false">
+            <a class="list-group-item list-group-collapse list-group-flush text-decoration-none stretched-link" href=""><i class="bi bi-plus-square-fill pr-2 h5"></i>Upload Assignment</a>
+            <a class="list-group-item list-group-collapse list-group-flush text-decoration-none stretched-link" href=""><i class="bi bi-menu-app-fill pr-2 h5"></i>List of Assignment</a>
+        </div>
+
+        <a class="myActive schchat-active list-group-item list-group-item-action text-decoration-none stretched-link" href="#submenu2" data-toggle="collapse" data-target="#submenu2"><i class="fas fa-graduation-cap pr-2 h5"></i>My School</a>
+        <div class="collapse" id="submenu2" aria-expanded="false">
+            <a class="list-group-item list-group-collapse list-group-flush text-decoration-none stretched-link" href=""><i class="bi bi-plus-square-fill pr-2 h5"></i>Add School</a>
+            <a class="list-group-item list-group-collapse list-group-flush text-decoration-none stretched-link" href=""><i class="bi bi-menu-app-fill pr-2 h5"></i>List of School</a>
+        </div>
+
+
+        <!-- <a href="#" class="myActive list-group-item list-group-item-action bg-light"><i class="fas fa-graduation-cap pr-2 h5"></i>My School</a> -->
+        <a href="#" class="myActive list-group-item list-group-item-action bg-light"><i class="bi bi-card-heading h5 pr-2"></i>My Text</a>
+        <a href="#" class="myActive list-group-item list-group-item-action bg-light"><i class="bi bi-cast h5 pr-2"></i>My Comproject</a>
+        <a href="#" class="myActive list-group-item list-group-item-action bg-light"><i class="bi bi-basket-fill pr-2 h5"></i>Logo/Art</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light"><i class="bi bi-box-arrow-left pr-2 h5"></i>Logout</a>
+      
+      </div>
+
+
+
+      
+        
+  
+        
+      
+  
+  
+
+      
+
+
+   
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+        <div class="navbar-brand">
+          <a class="" id="menu-toggle"><i class="bi bi-list mydashboard-bars h3 pr-2"></i></a>
+          <img src=".././assets/images/logo/schchat-logo.png" class="pb-2" width="90" alt="">
+        </div>
+        
+
+      
+
+        
+
+        
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu shadow dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="ml-auto">
+          
+          <button class="openBtn bg-white Schchat-Border-radius shadow-sm" onclick="openSearch()"><i class="text-warning bi bi-search"></i></button>
+    <div id="myOverlay" class="overlay">
+        <!-- <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span> -->
+        
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay"><i class="bi bi-x h2 text-white Schchat-Ubuntu"></i></span>
+        <div class="overlay-content">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit" class="bg-warning"><i class="fa fa-search text-dark"></i></button>
+          </form>
+        </div>
+      </div>
+
+
+      <div class="btn-group">
+        <a href="#" class="myToggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    
+            <div class="avatar shadow-sm">
+            <img src="../dashboard/avatar/avatar.png" width="50" alt="">
+            </div>
+        </a>
+        <div class="dropdown-menu shadow">
+            <!-- <div class="Schchat-Useraccount">
+                <img src="./assets/images/Schchat-image.png" class="Userimag"  alt="">
+            </div> -->
+
+           <div class="col-sm-12 py-3 bg-warning d-flex justify-content-center">
+            <div class="circular--avatar">
+              <img src="./images/Schchat-image.png" alt="">
+            </div>
+            <span class="UserName">Daniel Bestman</span>
+
+           </div>
+            <a class="menu-link dropdown-item" href="#"><i class="bi bi-person-circle pr-2 h6"></i>My Account</a>
+            
+            <a class="menu-link dropdown-item" href="#"><i class="fas fa-graduation-cap pr-2 h6"></i>My School</a>
+            <a class="menu-link dropdown-item" href="#"><i class="fas fa-project-diagram pr-2 h6"></i>My Assignment</a>
+            <a class="menu-link dropdown-item" href="#"><i class="bi bi-box-arrow-left pr-2 h6"></i>Logout</a>
+        </div>
+
+
+      </div>
+
+      <a class="navbar-toggler outline-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-caret-down-fill text-warning"></i>
+      </a>
+    
+
+
+
+
+
+
+        </div>
+      </div>
+      </nav>
+
+      <div class="container">
+        <!-- <h1 class="mt-4">Simple Sidebar</h1>
+        <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
+        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>. The top navbar is optional, and just for demonstration. Just create an element with the <code>#menu-toggle</code> ID which will toggle the menu when clicked.</p> -->
+      
+        <section class="py-5">
+          <div class="h3 py-3 text-center Schchat-Ubuntu">
+              Create School
+          </div>
+          <div class="container d-flex justify-content-center">
+              <div class="card Schchat-border-radius Schchat-padding-y border-0 shadow-lg" style="width:40rem!important;">
+              <div class="card-body">
+                  <form action="">
+                      <div class="form-group form-row mb-0">
+                          <!-- <input type="text" name="" class="form-control" placeholder="Email address or Username" id=""> -->
+                          
+      
+                            <div class="col-md-6 mb-3">
+                              <div class="input-group input-group-lg">
+                                  <span class="shadow-sm input-group-text Schchat-border-radius-right Schchat-form-control" id="basic-addon1"><i class="bi bi-menu-button-wide-fill text-warning"></i></span>
+                                  <input type="text" class="bg-light shadow-sm Schchat-form-input form-control" placeholder="School name" aria-label="School name" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+      
+                            <div class="col-md-6 mb-3">
+                              <div class="input-group input-group-lg">
+                                  <span class="shadow-sm input-group-text Schchat-border-radius-right Schchat-form-control" id="basic-addon1"><i class="fas fa-mobile-alt text-warning"></i></span>
+                                  <input type="text" class="bg-light shadow-sm Schchat-form-input form-control" placeholder="Phone number" aria-label="Phone number" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                      </div>
+      
+                      <div class="form-group form-row mb-0">
+                          <!-- <input type="text" name="" class="form-control" placeholder="Email address or Username" id=""> -->
+                          
+      
+                            <div class="col-md-6 mb-3">
+                              <div class="input-group input-group-lg">
+                                  <span class="shadow-sm input-group-text Schchat-border-radius-right Schchat-form-control" id="basic-addon1"><i class="far fa-flag text-warning"></i></span>
+                                  <!-- <input type="text" class="bg-light shadow-sm Schchat-form-input form-control" placeholder="School name" aria-label="School name" aria-describedby="basic-addon1"> -->
+                              <select name="country" id="" class="form-control shadow-sm bg-light Schchat-form-input">
+                                  <option value="" disabled selected>Select Country</option>
+                                  <option value="">Nigeria</option>
+                                  <option value="">United state</option>
+                                  <option value="">United kingdom</option>
+                                  <option value="">South africa</option>
+                              </select>  
+                              </div>
+                            </div>
+      
+                            <div class="col-md-6 mb-3">
+                              <div class="input-group input-group-lg">
+                                  <span class="shadow-sm input-group-text Schchat-border-radius-right Schchat-form-control" id="basic-addon1"><i class="fas fa-mobile text-warning"></i></span>
+                                  <input type="text" class="bg-light shadow-sm Schchat-form-input form-control" placeholder="Mobile" aria-label="Mobile" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                      </div>
+      
+                      <div class="form-group form-row mb-0">
+                          <!-- <input type="text" name="" class="form-control" placeholder="Email address or Username" id=""> -->
+                          
+      
+                            <div class="col-md-6 mb-3">
+                              <div class="input-group input-group-lg">
+                                  <span class="shadow-sm input-group-text Schchat-border-radius-right Schchat-form-control" id="basic-addon1"><i class="fas fa-city text-warning"></i></span>
+                                  <input type="text" class="bg-light shadow-sm Schchat-form-input form-control" placeholder="City" aria-label="City" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+      
+                            <div class="col-md-6 mb-3">
+                              <div class="input-group input-group-lg">
+                                  <span class="shadow-sm input-group-text Schchat-border-radius-right Schchat-form-control" id="basic-addon1"><i class="bi bi-person-fill text-warning"></i></span>
+                                  <input type="text" class="bg-light shadow-sm Schchat-form-input form-control" placeholder="Street Address" aria-label="Street Address" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                      </div>
+      
+                      <div class="form-group">
+                          <textarea name="" id="" cols="30" rows="10" placeholder="School Summary" class="form-control bg-light Schchat-form-input shadow-sm"></textarea>
+                      </div>
+      
+                      <div class="form-group form-row">
+                          <div class="col-md-12 mb-3">
+                              <div class="input-group input-group-lg">
+                                  <span class="shadow-sm input-group-text Schchat-border-radius-right Schchat-form-control" id="basic-addon1"><i class="bi bi-person-fill text-warning"></i></span>
+                                  <input type="text" class="bg-light shadow-sm Schchat-form-input form-control" placeholder="P.O Box" aria-label="P.O Box" aria-describedby="basic-addon1">
+                                </div>
+                          </div>
+                      </div>
+      
+      
+                      
+                      <div class="form-group d-flex justify-content-center">
+                          <button type="submit" class="btn btn-warning Schchat-warning-btn Schchat-Ubuntu"><i class="fas fa-upload text-white pr-2"></i>Upload school</button>
+                      </div>
+                  </form>
+              </div>
+              </div>
+          </div>
+      </section>
+
+
+
+      
+      </div>
+    </div>
+    
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <footer>
+    <div class="container-fluid bg-white py-2 text-right text-dark">
+      
+       <span class="">Schchat.com &copy; 2021</span>
+      
+    </div>
+  </footer>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+  <!-- Search Icon javascript -->
+<script>
+  function openSearch() {
+    document.getElementById("myOverlay").style.display = "block";
+  }
+  
+  function closeSearch() {
+    document.getElementById("myOverlay").style.display = "none";
+  }
+  </script>
+
+  <!-- Search Icon Javascript end -->
+
+ 
+
+</body>
+
+</html>
