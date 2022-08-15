@@ -1738,13 +1738,6 @@ html {
   }
 
   
-  
-  @media (min-width: 992px) {
-    .custom-group-input1{
-       margin-top: 45px !important;
-    }
- 
-   }
 
   
 
@@ -1752,13 +1745,17 @@ html {
     .custom-group-input1{
        margin-top: 25px !important;
     }
- 
+    .custom-upload-heading{
+
+    }
    }
 
     @media (max-width: 360px) {
      .custom-group-input1{
         margin-top: 15px !important;
      }
-     
+     .custom-group-input{{
+        margin-bottom: 20px !important;
+     }}
     }
 
