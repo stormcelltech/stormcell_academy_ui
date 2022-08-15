@@ -966,12 +966,13 @@ html {
 }
 
 .course .flex {
-    /* display: flex;
-    justify-content: center;
-    justify-content: space-around; */
-    display: grid;
+    display: flex;
+    /*justify-content: left;*/
+    flex-wrap: wrap;
+    /*justify-content: space-around; */
+    /*display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 17px;
+    gap: 17px;*/
 }
 
 .course .contain {
