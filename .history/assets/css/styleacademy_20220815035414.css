@@ -1738,27 +1738,18 @@ html {
   }
 
   
-  
-  @media (min-width: 992px) {
-    .custom-group-input1{
-       margin-top: 45px !important;
-    }
- 
-   }
 
   
 
   @media (max-width: 768px) {
     .custom-group-input1{
-       margin-top: 25px !important;
+       style="margin-top: 35px !important;
     }
- 
    }
 
     @media (max-width: 360px) {
      .custom-group-input1{
-        margin-top: 15px !important;
+        style="margin-top: 25px !important;
      }
-     
     }
 
