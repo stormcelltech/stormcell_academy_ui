@@ -1714,9 +1714,9 @@ html {
   .video-wrapper__video iframe {
     display: block;
   }
-  .custom-btn-add{
+  .custom-btn-add {
     background-color: #ffffff;
-    width: 175px;
+    /* width: 175px; */
     border-radius: 10px;
     font-family: 'Roboto';
     font-style: normal;
@@ -1760,6 +1760,59 @@ html {
      .custom-group-input1{
         margin-top: 15px !important;
      }
-     
+
+     .custom-list-upload{
+        font-size: 15px;
+        text-align: center;
+     }
+     .custom-tr th{
+        color: #716D6D !important;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 21px;
+     }
+    
+    
+     .custom-thtd-center th,td{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 18px;
+        color: #000000;
+     }
+    
+     .custom-thtd-center th,td, img{
+       width: 100%;
+       height: 30%;
+     }
+    
+    
     }
 
+
+
+
+
+    .custom-btn-add1{
+        background-color: #ffffff;
+        width: 175px;
+        border-radius: 10px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        color: #030540;
+        box-shadow: none;
+      }
+      .custom-btn-add1:hover{
+        background-color: var(--primary-color);
+        color: white;
+        box-shadow: none;
+      }
+      .custom-btn-add1:focus{
+        box-shadow: none;
+      }
