@@ -1,612 +1,701 @@
-/* 
+    /* 
 STORMCELL TEMPLATE
 This contain all stormcell default css settings settings
 Do not copyright unless your been liscence to do so. */
-/* Font settings */
-.stormcell-10px {
-    font-size: 10px;
-}
-
-.stormcell-15px {
-    font-size: 15px;
-}
-
-.stormcell-20px {
-    font-size: 20px;
-}
-
-.stormcell-25px {
-    font-size: 25px;
-}
-
-.stormcell-30px {
-    font-size: 30px;
-}
-
-.stormcell-35px {
-    font-size: 35px;
-}
-
-.stormcell-40px {
-    font-size: 40px;
-}
-
-.stormcell-45px {
-    font-size: 45px;
-}
-
-.stormcell-50px {
-    font-size: 50px;
-}
-
-.stormcell-55px {
-    font-size: 55px;
-}
-
-.stormcell-60px {
-    font-size: 60px;
-}
-
-.stormcell-65px {
-    font-size: 65px;
-}
-
-/* Font settings end */
-/* Padding settings */
-/* Padding-top */
-.stormcell-padding-top-10px {
-    padding-top: 10px;
-}
-
-.stormcell-padding-top-15px {
-    padding-top: 15px;
-}
-
-.stormcell-padding-top-20px {
-    padding-top: 20px;
-}
-
-.stormcell-padding-top-25px {
-    padding-top: 25px;
-}
-
-.stormcell-padding-top-30px {
-    padding-top: 30px;
-}
-
-.stormcell-padding-top-35px {
-    padding-top: 35px;
-}
-
-.stormcell-padding-top-40px {
-    padding-top: 40px;
-}
-
-.stormcell-padding-top-45px {
-    padding-top: 45px;
-}
-
-.stormcell-padding-top-50px {
-    padding-top: 50px;
-}
-
-.stormcell-padding-top-55px {
-    padding-top: 55px;
-}
-
-.stormcell-padding-top-60px {
-    padding-top: 60px;
-}
-
-.stormcell-padding-top-65px {
-    padding-top: 65px;
-}
-
-/* Padding-bottom */
-.stormcell-padding-bottom-10px {
-    padding-bottom: 10px;
-}
-
-.stormcell-padding-bottom-15px {
-    padding-bottom: 15px;
-}
-
-.stormcell-padding-bottom-20px {
-    padding-bottom: 20px;
-}
-
-.stormcell-padding-bottom-25px {
-    padding-bottom: 25px;
-}
-
-.stormcell-padding-bottom-30px {
-    padding-bottom: 30px;
-}
-
-.stormcell-padding-bottom-35px {
-    padding-bottom: 35px;
-}
-
-.stormcell-padding-bottom-40px {
-    padding-bottom: 40px;
-}
-
-.stormcell-padding-bottom-45px {
-    padding-bottom: 45px;
-}
-
-.stormcell-padding-bottom-50px {
-    padding-bottom: 50px;
-}
-
-.stormcell-padding-bottom-55px {
-    padding-bottom: 55px;
-}
-
-.stormcell-padding-bottom-60px {
-    padding-bottom: 60px;
-}
-
-.stormcell-padding-bottom-65px {
-    padding-bottom: 65px;
-}
-
-/* padding full */
-.stormcell-padding-10px {
-    padding: 10px;
-}
-
-.stormcell-padding-15px {
-    padding: 15px;
-}
-
-.stormcell-padding-20px {
-    padding: 20px;
-}
-
-.stormcell-padding-25px {
-    padding: 25px;
-}
-
-.stormcell-padding-30px {
-    padding: 30px;
-}
-
-.stormcell-padding-35px {
-    padding: 35px;
-}
-
-.stormcell-padding-40px {
-    padding: 40px;
-}
-
-.stormcell-padding-45px {
-    padding: 45px;
-}
-
-.stormcell-padding-50px {
-    padding: 50px;
-}
-
-.stormcell-padding-55px {
-    padding: 55px;
-}
-
-.stormcell-padding-60px {
-    padding: 60px;
-}
-
-.stormcell-padding-65px {
-    padding: 65px;
-}
-
-/* Padding settings end */
-/* font settings*/
-.stormcell-f-10px {
-    font-size: 10px;
-}
-
-.stormcell-f-15px {
-    font-size: 15px;
-}
-
-.stormcell-f-20px {
-    font-size: 20px;
-}
-
-.stormcell-f-25px {
-    font-size: 25px;
-}
-
-.stormcell-f-30px {
-    font-size: 30px;
-}
-
-.stormcell-f-35px {
-    font-size: 35px;
-}
-
-.stormcell-f-40px {
-    font-size: 40px;
-}
-
-.stormcell-f-45px {
-    font-size: 45px;
-}
-
-.stormcell-f-50px {
-    font-size: 50px;
-}
-
-.stormcell-f-55px {
-    font-size: 55px;
-}
-
-.stormcell-f-60px {
-    font-size: 60px;
-}
-
-.stormcell-f-65px {
-    font-size: 65px;
-}
-
-/* font settings end */
-/* Color settings */
-.stormcell-white {
-    color: #fff !important;
-}
-
-/* Color settings end */
-/* Shadow-settings */
-.stormcell-txtshadow {
-    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.505);
-}
-
-/* Shadow-settings-end */
-/* Default section settings */
-#info-section-settings {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-}
-
-#about-section-1 {
-    padding-top: 8rem !important;
-    padding-bottom: 8rem !important;
-}
-
-
-#about-balance-section-settings {
-    padding-top: 10rem;
-    padding-bottom: 10rem !important;
-}
-
-#contact-bg {
-    background-image: linear-gradient(rgba(5, 7, 68, 0.741),
-            rgba(0, 0, 00.505)), url(../images/background/contact-bg.jpg);
-    background-size: cover;
-    background-position: center center;
-}
-
-#what-bg {
-    background: #003077;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% 100%;
-}
-
-#stay-section-settings {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
-
-#about-sub-section-settings {
-    width: 100%;
-    /* height: 95vh; */
-    height: 100%;
-    padding-bottom: 5rem;
-}
-
-#about-section-settings {
-    width: 100%;
-    /* height: 100vh; */
-}
-.pricing-padding{
-    padding: 5rem 0;
-}
-
-.about-padding {
-    padding-top: 10px;
-    padding-bottom: 50px!important;
-}
-
-#wrapper {
-    margin: auto;
-}
-
-.lineheight {
-    line-height: 40px !important;
-    /* word-spacing: 2px; */
-}
-
-/* Default section settings end */
-/* stormcell-icons width settings */
-.arrow_forward-sm {
-    font-size: 18px;
-}
-
-#footer-settings {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-.container-footer-spacing {
-    padding-top: 4rem;
-}
-
-.copyRight-spacing {
-    padding-top: 4rem !important;
-}
-
-/* Stormcell-icons width settings end */
-/* MyNavBar Toggler */
-.menu-icon-bg {
-    background: #f7f7f7;
-    padding: 8px;
-    padding-right: 7px;
-    padding-left: 7px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    border-radius: 6px;
-    box-shadow:
-        0px 1px 4px rgba(151, 154, 155, 0.755), 12px 12px 16px 0 rgba(255, 255, 255, 0.72) inset,
-        -8px -8px 12px 0 rgba(255, 255, 255, 0.25) inset;
-}
-
-.menu-icon3 {
-    width: 30px;
-    height: 20px;
-    position: relative;
-    margin: 0px;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
-    cursor: pointer;
-}
-
-.menu-icon3 span {
-    display: block;
-    position: absolute;
-    height: .13rem;
-    width: 100%;
-    border-radius: 9px;
-    opacity: 1;
-    left: 0;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: .25s ease-in-out;
-    -moz-transition: .25s ease-in-out;
-    -o-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
-}
-
-.menu-icon3 span {
-    background: #000;
-}
-
-.menu-icon3 span:nth-child(1) {
-    /* top: 0px; */
-    -webkit-transform-origin: left center;
-    -moz-transform-origin: left center;
-    -o-transform-origin: left center;
-    transform-origin: left center;
-}
-
-.menu-icon3 span:nth-child(2) {
-    /* top: 10px; */
-    top: 8px;
-    /* To change the toggler icon size */
-    -webkit-transform-origin: left center;
-    -moz-transform-origin: left center;
-    -o-transform-origin: left center;
-    transform-origin: left center;
-}
-
-.menu-icon3 span:nth-child(3) {
-    /* top: 20px; */
-    top: 16px;
-    /* To change the toggler icon size */
-    -webkit-transform-origin: left center;
-    -moz-transform-origin: left center;
-    -o-transform-origin: left center;
-    transform-origin: left center;
-}
-
-.menu-icon3.open span:nth-child(1) {
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-    top: 0px;
-    left: 5px;
-}
-
-.menu-icon3.open span:nth-child(2) {
-    width: 0%;
-    opacity: 0;
-}
-
-.menu-icon3.open span:nth-child(3) {
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    top: 20px;
-    left: 5px;
-}
-
-/* MyNavbar Toggler end */
-/* footer main settings */
-.bg-footer {
-    /* background: #041066!important; */
-    background-image:
-        linear-gradient(rgba(5, 7, 68, 0.741),
-            rgba(0, 0, 00.505)), url(../images/background/footer-bg-img.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.UnorderList-1 li,
-.UnorderList-2 li,
-.UnorderList-3 li,
-.UnorderList-4 li {
-    font-family: "Roboto Regular";
-    padding-top: 5px;
-    padding-bottom: 10px;
-    text-decoration: none;
-    list-style: none;
-}
-
-.List-item a {
-    text-decoration: none;
-    transition: .5s transform;
-    cursor: pointer !important;
-    color: #aeabab !important;
-}
-
-li.List-item:hover {
-    transition: .5s all ease-in-out;
-    list-style: square;
-    transform: translateX(10px);
-    font-weight: 600;
-    cursor: pointer !important;
-    color: #fff;
-}
-
-li.List-item a:hover {
-    color: #fff !important;
-}
-
-.UnorderList-1 li.UnorderList-1-heading,
-.UnorderList-2 li.UnorderList-2-heading,
-.UnorderList-3 li.UnorderList-3-heading,
-.UnorderList-4 li.UnorderList-4-heading {
-    padding-bottom: 25px;
-    /* font-weight: 600; */
-    text-transform: capitalize !important;
-    font-family: "Roboto Bold";
-    font-size: 1.1rem !important;
-    color: #fff !important;
-}
-
-.UnorderList-4 .footer-social-icon span a i {
-    text-decoration: 0 !important;
-    font-size: 1.4rem;
-    margin-right: 16px;
-    margin-bottom: 15px;
-    color: #fff;
-}
-
-/* .UnorderList-4 .footer-social-icon span a i:hover{
+    /* Font settings */
+    
+    .stormcell-10px {
+        font-size: 10px;
+    }
+    
+    .stormcell-15px {
+        font-size: 15px;
+    }
+    
+    .stormcell-20px {
+        font-size: 20px;
+    }
+    
+    .stormcell-25px {
+        font-size: 25px;
+    }
+    
+    .stormcell-30px {
+        font-size: 30px;
+    }
+    
+    .stormcell-35px {
+        font-size: 35px;
+    }
+    
+    .stormcell-40px {
+        font-size: 40px;
+    }
+    
+    .stormcell-45px {
+        font-size: 45px;
+    }
+    
+    .stormcell-50px {
+        font-size: 50px;
+    }
+    
+    .stormcell-55px {
+        font-size: 55px;
+    }
+    
+    .stormcell-60px {
+        font-size: 60px;
+    }
+    
+    .stormcell-65px {
+        font-size: 65px;
+    }
+    /* Font settings end */
+    /* Padding settings */
+    /* Padding-top */
+    
+    .stormcell-padding-top-10px {
+        padding-top: 10px;
+    }
+    
+    .stormcell-padding-top-15px {
+        padding-top: 15px;
+    }
+    
+    .stormcell-padding-top-20px {
+        padding-top: 20px;
+    }
+    
+    .stormcell-padding-top-25px {
+        padding-top: 25px;
+    }
+    
+    .stormcell-padding-top-30px {
+        padding-top: 30px;
+    }
+    
+    .stormcell-padding-top-35px {
+        padding-top: 35px;
+    }
+    
+    .stormcell-padding-top-40px {
+        padding-top: 40px;
+    }
+    
+    .stormcell-padding-top-45px {
+        padding-top: 45px;
+    }
+    
+    .stormcell-padding-top-50px {
+        padding-top: 50px;
+    }
+    
+    .stormcell-padding-top-55px {
+        padding-top: 55px;
+    }
+    
+    .stormcell-padding-top-60px {
+        padding-top: 60px;
+    }
+    
+    .stormcell-padding-top-65px {
+        padding-top: 65px;
+    }
+    /* Padding-bottom */
+    
+    .stormcell-padding-bottom-10px {
+        padding-bottom: 10px;
+    }
+    
+    .stormcell-padding-bottom-15px {
+        padding-bottom: 15px;
+    }
+    
+    .stormcell-padding-bottom-20px {
+        padding-bottom: 20px;
+    }
+    
+    .stormcell-padding-bottom-25px {
+        padding-bottom: 25px;
+    }
+    
+    .stormcell-padding-bottom-30px {
+        padding-bottom: 30px;
+    }
+    
+    .stormcell-padding-bottom-35px {
+        padding-bottom: 35px;
+    }
+    
+    .stormcell-padding-bottom-40px {
+        padding-bottom: 40px;
+    }
+    
+    .stormcell-padding-bottom-45px {
+        padding-bottom: 45px;
+    }
+    
+    .stormcell-padding-bottom-50px {
+        padding-bottom: 50px;
+    }
+    
+    .stormcell-padding-bottom-55px {
+        padding-bottom: 55px;
+    }
+    
+    .stormcell-padding-bottom-60px {
+        padding-bottom: 60px;
+    }
+    
+    .stormcell-padding-bottom-65px {
+        padding-bottom: 65px;
+    }
+    /* padding full */
+    
+    .stormcell-padding-10px {
+        padding: 10px;
+    }
+    
+    .stormcell-padding-15px {
+        padding: 15px;
+    }
+    
+    .stormcell-padding-20px {
+        padding: 20px;
+    }
+    
+    .stormcell-padding-25px {
+        padding: 25px;
+    }
+    
+    .stormcell-padding-30px {
+        padding: 30px;
+    }
+    
+    .stormcell-padding-35px {
+        padding: 35px;
+    }
+    
+    .stormcell-padding-40px {
+        padding: 40px;
+    }
+    
+    .stormcell-padding-45px {
+        padding: 45px;
+    }
+    
+    .stormcell-padding-50px {
+        padding: 50px;
+    }
+    
+    .stormcell-padding-55px {
+        padding: 55px;
+    }
+    
+    .stormcell-padding-60px {
+        padding: 60px;
+    }
+    
+    .stormcell-padding-65px {
+        padding: 65px;
+    }
+    /* Padding settings end */
+    /* font settings*/
+    
+    .stormcell-f-10px {
+        font-size: 10px;
+    }
+    
+    .stormcell-f-15px {
+        font-size: 15px;
+    }
+    
+    .stormcell-f-20px {
+        font-size: 20px;
+    }
+    
+    .stormcell-f-25px {
+        font-size: 25px;
+    }
+    
+    .stormcell-f-30px {
+        font-size: 30px;
+    }
+    
+    .stormcell-f-35px {
+        font-size: 35px;
+    }
+    
+    .stormcell-f-40px {
+        font-size: 40px;
+    }
+    
+    .stormcell-f-45px {
+        font-size: 45px;
+    }
+    
+    .stormcell-f-50px {
+        font-size: 50px;
+    }
+    
+    .stormcell-f-55px {
+        font-size: 55px;
+    }
+    
+    .stormcell-f-60px {
+        font-size: 60px;
+    }
+    
+    .stormcell-f-65px {
+        font-size: 65px;
+    }
+    /* font settings end */
+    /* Color settings */
+    
+    .stormcell-white {
+        color: #fff !important;
+    }
+    /* Color settings end */
+    /* Shadow-settings */
+    
+    .stormcell-txtshadow {
+        text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.505);
+    }
+    /* Shadow-settings-end */
+    /* Default section settings */
+    
+    #info-section-settings {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+    
+    #about-section-1 {
+        padding-top: 8rem !important;
+        padding-bottom: 8rem !important;
+    }
+    
+    #about-balance-section-settings {
+        padding-top: 10rem;
+        padding-bottom: 10rem !important;
+    }
+    
+    #contact-bg {
+        background-image: linear-gradient(rgba(5, 7, 68, 0.741), rgba(0, 0, 00.505)), url(../images/background/contact-bg.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    #what-bg {
+        background: #003077;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 100% 100%;
+    }
+    
+    #stay-section-settings {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    
+    #about-sub-section-settings {
+        width: 100%;
+        /* height: 95vh; */
+        height: 100%;
+        padding-bottom: 5rem;
+    }
+    
+    #about-section-settings {
+        width: 100%;
+        /* height: 100vh; */
+    }
+    
+    .pricing-padding {
+        padding: 5rem 0;
+    }
+    
+    .about-padding {
+        padding-top: 10px;
+        padding-bottom: 50px!important;
+    }
+    
+    #wrapper {
+        margin: auto;
+    }
+    
+    .lineheight {
+        line-height: 40px !important;
+        /* word-spacing: 2px; */
+    }
+    /* Default section settings end */
+    /* stormcell-icons width settings */
+    
+    .arrow_forward-sm {
+        font-size: 18px;
+    }
+    
+    #footer-settings {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    .container-footer-spacing {
+        padding-top: 4rem;
+    }
+    
+    .copyRight-spacing {
+        padding-top: 4rem !important;
+    }
+    /* Stormcell-icons width settings end */
+    /* MyNavBar Toggler */
+    
+    .menu-icon-bg {
+        background: #f7f7f7;
+        padding: 8px;
+        padding-right: 7px;
+        padding-left: 7px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border-radius: 6px;
+        box-shadow: 0px 1px 4px rgba(151, 154, 155, 0.755), 12px 12px 16px 0 rgba(255, 255, 255, 0.72) inset, -8px -8px 12px 0 rgba(255, 255, 255, 0.25) inset;
+    }
+    
+    .menu-icon3 {
+        width: 30px;
+        height: 20px;
+        position: relative;
+        margin: 0px;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .menu-icon3 span {
+        display: block;
+        position: absolute;
+        height: .13rem;
+        width: 100%;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+    }
+    
+    .menu-icon3 span {
+        background: #000;
+    }
+    
+    .menu-icon3 span:nth-child(1) {
+        /* top: 0px; */
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        -o-transform-origin: left center;
+        transform-origin: left center;
+    }
+    
+    .menu-icon3 span:nth-child(2) {
+        /* top: 10px; */
+        top: 8px;
+        /* To change the toggler icon size */
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        -o-transform-origin: left center;
+        transform-origin: left center;
+    }
+    
+    .menu-icon3 span:nth-child(3) {
+        /* top: 20px; */
+        top: 16px;
+        /* To change the toggler icon size */
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        -o-transform-origin: left center;
+        transform-origin: left center;
+    }
+    
+    .menu-icon3.open span:nth-child(1) {
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+        top: 0px;
+        left: 5px;
+    }
+    
+    .menu-icon3.open span:nth-child(2) {
+        width: 0%;
+        opacity: 0;
+    }
+    
+    .menu-icon3.open span:nth-child(3) {
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        top: 20px;
+        left: 5px;
+    }
+    /* MyNavbar Toggler end */
+    /* footer main settings */
+    
+    .bg-footer {
+        /* background: #041066!important; */
+        background-image: linear-gradient(rgba(5, 7, 68, 0.741), rgba(0, 0, 00.505)), url(../images/background/footer-bg-img.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    
+    .UnorderList-1 li,
+    .UnorderList-2 li,
+    .UnorderList-3 li,
+    .UnorderList-4 li {
+        font-family: "Roboto Regular";
+        padding-top: 5px;
+        padding-bottom: 10px;
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .List-item a {
+        text-decoration: none;
+        transition: .5s transform;
+        cursor: pointer !important;
+        color: #aeabab !important;
+    }
+    
+    li.List-item:hover {
+        transition: .5s all ease-in-out;
+        list-style: square;
+        transform: translateX(10px);
+        font-weight: 600;
+        cursor: pointer !important;
+        color: #fff;
+    }
+    
+    li.List-item a:hover {
+        color: #fff !important;
+    }
+    
+    .UnorderList-1 li.UnorderList-1-heading,
+    .UnorderList-2 li.UnorderList-2-heading,
+    .UnorderList-3 li.UnorderList-3-heading,
+    .UnorderList-4 li.UnorderList-4-heading {
+        padding-bottom: 25px;
+        /* font-weight: 600; */
+        text-transform: capitalize !important;
+        font-family: "Roboto Bold";
+        font-size: 1.1rem !important;
+        color: #fff !important;
+    }
+    
+    .UnorderList-4 .footer-social-icon span a i {
+        text-decoration: 0 !important;
+        font-size: 1.4rem;
+        margin-right: 16px;
+        margin-bottom: 15px;
+        color: #fff;
+    }
+    /* .UnorderList-4 .footer-social-icon span a i:hover{
 font-weight: normal!important;
 list-style: none;
 } */
-ul.UnorderList-4 li.List-item .footer-social-icon span a i {
-    font-weight: normal !important;
-}
-
-.footer-social-icon span a i {
-    transition: transform .2s;
-}
-
-.footer-social-icon span a i:hover {
-    transform: scale(1.6) rotate(-10deg) !important;
-}
-
-.UnorderList-4 li.List-item:hover {
-    list-style: none;
-    transform: translateX(0px);
-}
-
-.copyRight-row {
-    /* align-self: flex-end!important; */
-    margin-bottom: auto !important;
-}
-
-.copyRight-style li,
-.copyRight-style li a {
-    list-style: none;
-    text-decoration: none !important;
-    color: #fff !important;
-}
-
-.line {
-    max-width: 100% !important;
-    width: 100% !important;
-    padding-bottom: 25px !important;
-    margin: 0 !important;
-    border-top: solid 1px #030d59 !important;
-}
-
-/* footer main settings end */
-/* Stormcell Dropdown menu */
-.stormcell-dropdown-menu {
-    /* border-radius: 5px!important; */
-    border-top-left-radius: 0 !important;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border: solid 2px #0218bf65 !important;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.505) !important;
-    transition: transform 2s ease-in-out;
-    /* transform: translateX(40px); */
-    animation: growDown forwards 300ms ease-in-out;
-    transform-origin: top center
-}
-
-.stormcell-dropdown-menu a {
-    font-weight: 500;
-}
-
-@keyframes growDown {
-    0% {
-        transform: translateZ(-200px) transLateY(-40px)
+    
+    ul.UnorderList-4 li.List-item .footer-social-icon span a i {
+        font-weight: normal !important;
     }
-
-    80% {
-        transform: translateZ(-10px) transLateY(0px)
+    
+    .footer-social-icon span a i {
+        transition: transform .2s;
     }
-
-    100% {
-        transform: translateZ(0px) transLateY(0px)
+    
+    .footer-social-icon span a i:hover {
+        transform: scale(1.6) rotate(-10deg) !important;
     }
-}
-
-.icon-child span.fa-lightbulb {
-    color: #f7ca15;
-}
-
-.icon-child span.transfer {
-    color: #1493f3;
-}
-
-.icon-child span.people {
-    color: rgb(255, 165, 0);
-}
-
-/* Stormcell Dropdown menu end */
-/* Align object */
-.centered-object {
-    width: 100%;
-    margin: 0 auto;
-}
-
-/* Align object end */
-/* Modal settings */
+    
+    .UnorderList-4 li.List-item:hover {
+        list-style: none;
+        transform: translateX(0px);
+    }
+    
+    .copyRight-row {
+        /* align-self: flex-end!important; */
+        margin-bottom: auto !important;
+    }
+    
+    .copyRight-style li,
+    .copyRight-style li a {
+        list-style: none;
+        text-decoration: none !important;
+        color: #fff !important;
+    }
+    
+    .line {
+        max-width: 100% !important;
+        width: 100% !important;
+        padding-bottom: 25px !important;
+        margin: 0 !important;
+        border-top: solid 1px #030d59 !important;
+    }
+    /* footer main settings end */
+    /* Stormcell Dropdown menu */
+    
+    .stormcell-dropdown-menu {
+        /* border-radius: 5px!important; */
+        border-top-left-radius: 0 !important;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border: solid 2px #0218bf65 !important;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.505) !important;
+        transition: transform 2s ease-in-out;
+        /* transform: translateX(40px); */
+        animation: growDown forwards 300ms ease-in-out;
+        transform-origin: top center
+    }
+    
+    .stormcell-dropdown-menu a {
+        font-weight: 500;
+    }
+    
+    @keyframes growDown {
+        0% {
+            transform: translateZ(-200px) transLateY(-40px)
+        }
+        80% {
+            transform: translateZ(-10px) transLateY(0px)
+        }
+        100% {
+            transform: translateZ(0px) transLateY(0px)
+        }
+    }
+    
+    .icon-child span.fa-lightbulb {
+        color: #f7ca15;
+    }
+    
+    .icon-child span.transfer {
+        color: #1493f3;
+    }
+    
+    .icon-child span.people {
+        color: rgb(255, 165, 0);
+    }
+    /* Stormcell Dropdown menu end */
+    /* Align object */
+    
+    .centered-object {
+        width: 100%;
+        margin: 0 auto;
+    }
+    /* Align object end */
+    /* Modal settings */
+    /* Style for courses_purchased.html page starts from here */
+    
+    .courses-status-bottom {
+        height: 80px;
+        background-color: rgba(217, 217, 217, 0.2);
+        border-top: 2px solid gray;
+    }
+    
+    .rounded-colour {
+        height: 90px;
+        width: 90px;
+        background-color: rgba(4, 16, 102, 0.74);
+    }
+    
+    .status-colour-ongoing::before {
+        content: "";
+        height: 7px;
+        width: 7px;
+        display: inline-block;
+        border-radius: 50%;
+        margin-right: 3px;
+        background-color: #FF6F0F;
+    }
+    
+    .status-colour-completed::before {
+        content: "";
+        height: 7px;
+        width: 7px;
+        display: inline-block;
+        border-radius: 50%;
+        margin-right: 3px;
+        background-color: #19B829;
+    }
+    
+    .courses-heading {}
+    
+    .courses-table {
+        font-family: "roborto";
+        font-style: normal;
+        background-color: #fff;
+        border-radius: 26px;
+        margin-left: 0px;
+    }
+    
+    .courses-table>tr>td {
+        font-family: "roborto";
+        font-style: normal;
+    }
+    
+    .tr-colour>td {
+        font-family: "roborto";
+        font-style: normal;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        /* color: red; */
+    }
+    
+    .table-heading-head>p {
+        font-style: normal !important;
+        font-family: 'Roboto' !important;
+        /* font-family: 'roborto' !important; */
+    }
+    
+    .table-heading-row {
+        background: #F6F6F6;
+        color: #716D6D;
+        font-style: normal;
+        font-family: "Roboto";
+        /* border-top-right-radius: 26px;
+        border-top-left-radius: 26px;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%; */
+    }
+    
+    .rounded-colour>p {
+        padding-top: 40%;
+        padding-left: 40%;
+    }
+    
+    .course-status-top,
+    .radius-26 {
+        border-top-left-radius: 20px !important;
+        border-top-right-radius: 20px !important;
+    }
+    
+    .courses-status-bottom {
+        border-bottom-left-radius: 20px !important;
+        border-bottom-right-radius: 20px !important;
+    }
+    
+    .page-body {
+        border-radius: 26px;
+        font-style: normal !important;
+        font-family: 'roborto'!important;
+    }
