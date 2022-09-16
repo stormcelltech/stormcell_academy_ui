@@ -15,11 +15,7 @@
     <link href="./assets/fontawesome-free-6.1.1-web/css/all.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="assets/css/swiper.bundle.min.css">
 
-    <style>
-        a {
-            text-decoration: none;
-        }
-    </style>
+
 
     <style>
         /* .course-status-top {
@@ -32,7 +28,7 @@
             border-bottom-right-radius: 20px !important;
         } */
         
-        @media(max-width:767px) {
+        /* @media(max-width:767px) {
             .course-status-top {
                 height: 150px;
                 border-top-left-radius: 26px !important;
@@ -46,7 +42,7 @@
                 width: 40%;
                 padding-left: 10%;
             }
-        }
+        } */
     </style>
 
 </head>
@@ -107,8 +103,8 @@
 
     <div class="classroom main-container custom-upload-container">
 
-        <div class="row px-lg-5 px-2 justify-content-center ">
-            <div class="">
+        <div class="row px-lg-5 px-2 justify-content-center ">  <!--justify-content-center-->
+            <div class=" f">
                 <!-- <div class="d-md-none mobile-menu-holder">
                     <span class="nav-menu-mobile-btn"><i class="fa fa-bars mr-5"></i></span>
                     
@@ -192,51 +188,51 @@
 
                     </div>
 
-                    <div class="col-xl-9">
+                    <div class="col-xl-9 col-10 ">
 
-                        <div class="page-body bg-light">
-                            <div class="courses bg-light col-lg-12 my-2 radius-26">
-                                <div class="courses-heading my-4 col-lg-12 col-md-12 col-sm-6 mx-auto mt-5">
+                        <div class="page-body col-sm-12" style="background-color: white;">
+                            <div class="courses  my-1 col-sm-12 ">
+                                <div class="courses-heading my-2  col-md-12 col-sm-6 mx-auto " style="background-color: white;">
                                     <h4 class="mx-auto col-lg-1 col-sm-6 pt-5">Courses</h4>
                                 </div>
-                                <div class="courses-status row d-flex justify-content-evenly">
-                                    <div class="purchased col-lg-3 col-md-4 col-sm-5 border border-light my-5">
-                                        <div class="course-status-top col-lg-12 col-sm-12 d-flex flex-row rounded-top border border-bottom-danger bg-light" style="background: #FFFFFF; box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.2);">
-                                            <div class="courses-inner-icon my-auto ms-5"><span class="input-group-text  custom-icon-circle"><i class="bi bi-book"></i></span></div>
-                                            <div class="courses-inner-text my-auto ms-3">
+                                <div class="courses-status row d-flex justify-content-evenly px-sm-3 px-lg-1">
+                                    <div class="purchased col-lg-3 col-sm-4 col-8 mb-5">
+                                        <div class="course-status-top col-sm-12 py-md-3 d-flex flex-row rounded-top border border-bottom-danger " style="background: #FFFFFF; box-shadow:2px 2px 20px rgba(15, 24, 49, 0.247)">
+                                            <div class="courses-inner-icon my-auto ms-2"><span class="input-group-text  custom-icon-circle"><i class="bi bi-book"></i></span><span class="txt">Purchased courses</span></div>
+                                            <!-- <div class="courses-inner-text my-auto ms-3">
                                                 <p class="my-auto">Purchased courses</p>
-                                            </div>
+                                            </div> -->
                                         </div>
-                                        <div class="courses-status-bottom col-lg-12 col-sm-12 rounded-bottom" style="box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.2);">
-                                            <div class="rounded-colour border rounded-circle mx-auto">
-                                                <p class="course-number text-light">11</p>
+                                        <div class="courses-status-bottom  col-sm-12 rounded-bottom" style="background-color: rgba(244, 247, 248, 0.925);">
+                                            <div class="rounded-colour border first rounded-circle mx-auto">
+                                                <p class="course-number text-light pb-4 ">11</p>
                                             </div>
                                         </div>
                                     </div>
 
 
-                                    <div class="purchased col-lg-3 col-md-4 col-sm-5 border border-light my-5">
-                                        <div class="course-status-top col-lg-12 col-sm-12 d-flex flex-row rounded-top border border-bottom-danger bg-light" style="background: #FFFFFF;
-                                            box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.2);">
-                                            <div class="courses-inner-icon my-auto ms-5"><span class="input-group-text  custom-icon-circle"><i class="bi bi-book"></i></span></div>
-                                            <div class="courses-inner-text my-auto ms-3">
+                                    <div class="purchased col-lg-3 col-sm-4 col-8 mb-5">
+                                        <div class="course-status-top col-sm-12 py-md-3 d-flex flex-row rounded-top border border-bottom-danger" style="background: white;
+                                            box-shadow: 2px 2px 20px rgba(15, 24, 49, 0.247)">
+                                            <div class="courses-inner-icon my-auto ms-2"><span class="input-group-text  custom-icon-circle"><i class="bi bi-book"></i></span><span class="txt">Completed courses</span></div>
+                                            <!-- <div class="courses-inner-text my-auto ms-3">
                                                 <p class="my-auto">Completed courses</p>
-                                            </div>
+                                            </div> -->
                                         </div>
-                                        <!-- <div class="courses-status-bottom col-lg-12 col-sm-12 rounded-bottom">
+                                        <!-- <div class="courses-status-bottom  col-sm-12 rounded-bottom">
                                             <div class="rounded-colour border rounded-circle mx-auto">
                                                 <div class="px-4 py-4 text-light">3</div>
                                             </div>
                                         </div> -->
-                                        <div class="courses-status-bottom col-lg-12 col-sm-12 rounded-bottom" style="box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.2);">
-                                            <div class="rounded-colour border rounded-circle mx-auto">
+                                        <div class="courses-status-bottom  col-sm-12 rounded-bottom" style="background-color: rgba(244, 247, 248, 0.925);">
+                                            <div class="rounded-colour border second rounded-circle mx-auto">
                                                 <p class="course-number text-light">2</p>
                                             </div>
                                         </div>
                                     </div>
 
 
-                                    <!-- <div class="purchased col-lg-3 col-md-4 col-sm-5 border border-light my-5">
+                                    <!-- <div class="purchased col-lg-3 col-sm-4 col-8 mb-5 border-light my-5">
                                         <div class="col-lg-12 col-sm-12 d-flex flex-row rounded-top border border-bottom-danger bg-light">
                                             <div class="courses-inner-icon my-2 ms-5"><span class="input-group-text  custom-icon-circle"><i class="bi bi-book"></i></span></div>
                                             <div class="courses-inner-text my-3 ms-2">
@@ -250,21 +246,21 @@
                                         </div>
                                     </div> -->
 
-                                    <div class="purchased col-lg-3 col-md-4 col-sm-5 border border-light my-5">
-                                        <div class="course-status-top col-lg-12 col-sm-12 d-flex flex-row rounded-top border border-bottom-danger bg-light" style="background: #FFFFFF;
-                                            box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.2);">
-                                            <div class="courses-inner-icon my-auto ms-5"><span class="input-group-text  custom-icon-circle"><i class="bi bi-book"></i></span></div>
-                                            <div class="courses-inner-text my-auto ms-3">
+                                    <div class="purchased col-lg-3 col-sm-4 col-8 mb-5">
+                                        <div class="course-status-top col-sm-12 py-md-3 d-flex flex-row rounded-top border border-bottom-danger " style="background: white;
+                                            box-shadow: 2px 2px 20px rgba(15, 24, 49, 0.247);">
+                                            <div class="courses-inner-icon my-auto ms-2 " ><span class="input-group-text  custom-icon-circle"><i class="bi bi-book"></i></span><span class="txt">Completed courses</span></div>
+                                            <!-- <div class="courses-inner-text my-auto ms-3">
                                                 <p class="my-auto">Completed courses</p>
-                                            </div>
+                                            </div> -->
                                         </div>
                                         <!-- <div class="courses-status-bottom col-lg-12 col-sm-12 rounded-bottom">
                                             <div class="rounded-colour border rounded-circle mx-auto">
                                                 <div class="px-4 py-4 text-light">3</div>
                                             </div>
                                         </div> -->
-                                        <div class="courses-status-bottom col-lg-12 col-sm-12 rounded-bottom" style="box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.2);">
-                                            <div class="rounded-colour border rounded-circle mx-auto">
+                                        <div class="courses-status-bottom col-lg-12 col-sm-12 rounded-bottom" style="background-color: rgba(244, 247, 248, 0.925);">
+                                            <div class="rounded-colour border third rounded-circle mx-auto">
                                                 <p class="course-number text-light">3</p>
                                             </div>
                                         </div>
@@ -273,72 +269,125 @@
                                 </div>
                             </div>
 
+                    
+
                             <!-- The table starts here -->
 
-                            <div class="container col-lg-12 col-md-12 col-sm-12 ms-0" style="border-radius: 30px; box-shadow: 0px 97.523px 107.101px rgba(0, 0, 0, 0.1);">
-                                <div class="">
-                                    <div class="table-main-head mx-auto col-lg-3 mt-5 fs-3 mb-4">
-                                        <p>Purchased courses</p>
+                             
+
+                             <div class="container mb-5" style="box-shadow: 0px 97.523px 107.101px rgba(0, 0, 0, 0.233); margin-bottom: 30px; height: 45%;">
+                                
+                                    <div class="table-main-head mx-auto col-lg-3 mt-5 fs-3">
+                                        <h4>Purchased courses</h4>
                                     </div>
-                                    <div class=" col-lg-12 col-md-12 col-sm-12 ms-0">
-                                        <div class="col-lg-12 col-sm-12  mb-5 rounded-3 border" style="margin-bottom: -200px">
+                                    <div class="table-responsive-sm p-0 ">
+                                        <table class="table" style="width: 90%; margin-left: 40px; box-shadow: 0px 97.523px 107.101px rgba(0, 0, 0, 0.1);">
+                                            
+                                                
+                                                <thead class="hed  custom-heading" style="margin: 70px; ">
+                                                  <tr class="headarea py-5 space" style="padding-top: 30px; padding-bottom: 30px; background-color: rgba(228, 228, 216, 0.425);">
+                                                    <th scope="col" class="tobo" style="padding-top: 20px; padding-bottom: 20px; text-align: center;">S/N</th>
+                                                    <th scope="col" class="tobo" style="padding-top: 20px; padding-bottom: 20px; text-align: center;">Title</th>
+                                                    <th scope="col" class="tobo" style="padding-top: 20px; padding-bottom: 20px;">Price</th>
+                                                    <th scope="col" class="tobo" style="padding-top: 20px; padding-bottom: 20px;">Status</th>
+                                                    <th scope="col" class="tobo" style="padding-top: 20px; padding-bottom: 20px;">Date</th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody style="margin: 70px;">
+                                                  <tr class="space py-5">
+                                                    <th scope="row" class="tobo" style="padding-top: 20px; padding-bottom: 20px; text-align: center;">1</th>
+                                                    <td class="tobo" style="padding-top: 20px; padding-bottom: 20px; text-align: center;">Lorem ipsum dolor sit, amet consectetur</td>
+                                                    <td class="tobo" style="padding-top: 20px; padding-bottom: 20px;">₦ 3,000</td>
+                                                    <td class="status-colour-completed col" class="tobo" style="padding-top: 20px; padding-bottom: 20px;">Ongoing</td>
+                                                    <td class="tobo" style="padding-top: 20px; padding-bottom: 20px;">25-8-22</td>
+                                                  </tr>
+
+                                                  <tr class="space py-5">
+                                                    <th scope="row" class="tobo" style="padding-top: 20px; padding-bottom: 20px; text-align: center;">2</th>
+                                                    <td class="tobo" style="padding-top: 20px; padding-bottom: 20px; text-align: center;">Lorem ipsum dolor sit amet consectetur</td>
+                                                    <td class="tobo" style="padding-top: 20px; padding-bottom: 20px;">₦ 3,000</td>
+                                                    <td class="status-colour-ongoing col" style="padding-top: 20px; padding-bottom: 20px;">Ongoing</td>
+                                                    <td class="tobo" style="padding-top: 20px; padding-bottom: 20px;">25-8-22</td>
+                                                  </tr>
+
+                                                  <tr class="space py-5">
+                                                    <th scope="row" class="tobo" style="padding-top: 20px; padding-bottom: 20px; text-align: center;">3</th>
+                                                    <td class="tobo" style="padding-top: 20px; padding-bottom: 20px; text-align: center;">Lorem ipsum dolor sit amet consectetur</td>
+                                                    <td class="tobo" style="padding-top: 20px; padding-bottom: 20px;">₦ 3,000</td>
+                                                    <td class="status-colour-completed col" style="padding-top: 20px; padding-bottom: 20px;">Ongoing</td>
+                                                    <td class="tobo" style="padding-top: 20px; padding-bottom: 20px;">25-8-22</td>
+                                                  </tr>
+
+                                                  <tr class="spacebot py-5">
+                                                    <th scope="row" class="tobo" style="padding-top: 20px; padding-bottom: 20px; text-align: center;">4</th>
+                                                    <td class="tobo" style="padding-top: 20px; padding-bottom: 20px; text-align: center;">Lorem ipsum dolor sit amet consectetur</td>
+                                                    <td class="tobo" style="padding-top: 20px; padding-bottom: 20px;">₦ 3,000</td>
+                                                    <td class="status-colour-completed col tobo" style="padding-top: 20px; padding-bottom: 20px;">Ongoing</td>
+                                                    <td class="tobo" style="padding-top: 20px; padding-bottom: 20px;">25-8-22</td>
+                                                  </tr>
+                                                </tbody>
+                                              
+                                        </table>
+                                      </div>
+                                     <!-- <div class=" col-lg-12 col-md-6 col-sm-12 ">
+                                        <div class="col-lg-12 col-sm-12  mb-5 " style="margin-bottom: -200px">
                                             <div class="container">
-                                                <!-- <div class="table-main-head mx-auto col-lg-3 mt-5 fs-5 mb-4">Purchased courses</div> -->
-                                                <table class="table courses-table table-responsive mb-5 col-lg-12 col-md-12 col-sm-12 ms-0 my-5" style="
-                                                    box-shadow: 0px 97.523px 107.101px rgba(0, 0, 0, 0.1);">
-                                                    <!-- <thead style="border-bottom: opx;"> -->
-                                                    <tr class="tr-colour table-heading-row">
-                                                        <th class="py-4 border-top-round">S/N</th>
-                                                        <th class="py-4">Title</th>
-                                                        <th class="py-4">Price</th>
-                                                        <th class="py-4">Status</th>
-                                                        <th class="py-4">Date</th>
+                                              
+                                              <div class="table courses-table  mb-5 col-lg-12 col-md-12 col-sm-12 ms-0 my-5" 
+                                                style="box-shadow: 0px 97.523px 107.101px rgba(0, 0, 0, 0.1); background-color: red;">
+                                                <table class="  table-responsive-sm row rounded-5 ">   
+                                                    <tr class="tr-colour table-heading-row headarea ">
+                                                        <th class="py-4 col">S/N</th>
+                                                        <th class="py-4 col ">Title</th>
+                                                        <th class="py-4 col">Price</th>
+                                                        <th class="py-4 col ">Status</th>
+                                                        <th class="py-4 col">Date</th>
                                                     </tr>
-                                                    <!-- </thead> -->
+                                                    
+                                                    <tr class="tr-colour ">
+                                                        <td class="col">1</td>
+                                                        <td class="col">Learn how to use Javascript</td>
+                                                        <td class="col">₦ 4,000</td>
+                                                        <td class="status-colour-ongoing col">Ongoing</td>
+                                                        <td class="col">25-8-22</td>
+                                                    </tr>
+
+
+
+                                                    <tr class="tr-colour ">
+                                                        <td class="col">2</td>
+                                                        <td class="col-lg-3 col">Learn how to use Javascript</td>
+                                                        <td class="col">₦ 2,000</td>
+                                                        <td class="status-colour-completed col">Ongoing</td>
+                                                        <td class="col">25-8-22</td>
+                                                    </tr>
+
+
+                                                    <tr class="tr-colour ">
+                                                        <td class="col">3</td>
+                                                        <td class="col">Learn how to use Javascript</td>
+                                                        <td class="col">₦ 1,000</td>
+                                                        <td class="status-colour-ongoing col">Ongoing</td>
+                                                        <td class="col">25-8-22</td>
+                                                    </tr>
+
+
                                                     <tr class="tr-colour">
-                                                        <td>1</td>
-                                                        <td>Learn how to use Javascript</td>
-                                                        <td>₦ 4,000</td>
-                                                        <td class="status-colour-ongoing">Ongoing</td>
-                                                        <td>25-8-22</td>
+                                                        <td class="col">4</td>
+                                                        <td class="col">Learn how to use Javascript</td>
+                                                        <td class="col">₦ 3,000</td>
+                                                        <td class="status-colour-completed col">Ongoing</td>
+                                                        <td class="col">25-8-22</td>
                                                     </tr>
-
-
-
-                                                    <tr class="tr-colour">
-                                                        <td>2</td>
-                                                        <td class="col-lg-3">Learn how to use Javascript</td>
-                                                        <td>₦ 2,000</td>
-                                                        <td class="status-colour-completed">Ongoing</td>
-                                                        <td>25-8-22</td>
-                                                    </tr>
-
-
-                                                    <tr class="tr-colour">
-                                                        <td>3</td>
-                                                        <td>Learn how to use Javascript</td>
-                                                        <td>₦ 1,000</td>
-                                                        <td class="status-colour-ongoing">Ongoing</td>
-                                                        <td>25-8-22</td>
-                                                    </tr>
-
-
-                                                    <tr class="tr-colour">
-                                                        <td>4</td>
-                                                        <td>Learn how to use Javascript</td>
-                                                        <td>₦ 3,000</td>
-                                                        <td class="status-colour-completed">Ongoing</td>
-                                                        <td>25-8-22</td>
-                                                    </tr>
-
-
 
                                                 </table>
+
+                                              </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
+                                    </div>  -->
+                        
+                            </div> 
                         </div>
 
                         <!-- <div class="card bg-white custom-upload-card px-lg-5 ">
