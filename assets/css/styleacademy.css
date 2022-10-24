@@ -768,7 +768,11 @@ html {
     left: -15px;
     background: rgba(6, 27, 65, 0.4);
 }
-
+.listing-carousel-button-next i,.listing-carousel-button-prev i{
+    font-size: 25px;
+    position: relative;
+    margin-bottom: -50px!important;
+}
 .testi-item {
     transition: all .3s ease-in-out;
     transform: scale(0.9);
@@ -1816,3 +1820,48 @@ html {
       .custom-btn-add1:focus{
         box-shadow: none;
       }
+
+      /* about academy settings */
+      .about-academy-bg-1{
+        background: #e9e3e33a;
+        padding: 5rem 0;
+      }
+
+      .about-academy-img img{
+        width: 20rem;
+      }
+      .about-academy-content{
+        padding-top: 70px;
+      }
+
+      .about-academy-heading{
+        color: var(--primary-color);
+        font-size: 50px;
+        padding: 5px 0;
+        font-family: var(--Roboto-Bold);
+      }
+
+      .about-academy-paragraph{
+        font-weight: lighter;
+        padding-bottom: 20px;
+        font-family: var(--productsan-regular);
+      }
+
+      .about-academy-btn{
+        background: var(--primary-color);
+        padding: 15px 20px;
+        color: #fff;
+        font-family: var(--productsan-bold);
+      }
+      .about-academy-btn:hover{
+        background: #000;
+        color: #fff;
+        transition: all ease-in-out .5s;
+      }
+      /* about academy settings end */
+
+/* stormcell hero margin */
+.stormcell-hero-margin{
+margin-top: 130px;
+}
+/* stormcell hero margin end */

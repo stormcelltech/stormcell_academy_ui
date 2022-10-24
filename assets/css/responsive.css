@@ -1,6 +1,44 @@
             /* THIS CONTAIN ALL STORMCELL TEMPLATE RESPONSIVE 
 */
-        
+
+
+@media (max-width:384px){
+     .about-academy-content .about-academy-heading{
+        font-size: 20px!important;
+    }
+    .about-academy-content .about-academy-paragraph{
+        font-size: 15px;
+    } 
+}
+
+
+@media (max-width:451.20000000000005px){
+    .about-academy-content .about-academy-heading{
+        font-size: 29px!important;
+    }
+    .about-academy-content .about-academy-paragraph{
+        font-size: 15px;
+    }
+    body{
+    overflow-x:hidden;
+
+    }
+}
+        @media (max-width:585.59px){
+            .about-academy-img img{
+                width: 240px!important;
+                display: block;
+                margin: 0 auto;
+            }
+
+            .about-academy-content{
+                /* text-align: center; */
+            }
+            .about-academy-content .about-academy-heading{
+                font-size: 25px;
+            }
+            
+        }
         @media(max-width:767px) {
             .stormcell-nav {
                 background: #fff!important;
@@ -145,3 +183,4 @@
                 height: 100px;
                 background-color: red;
             }
+        }
